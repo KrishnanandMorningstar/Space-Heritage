@@ -1,0 +1,45 @@
+:root {
+  /* 60% Primary Dark Space Canvas */
+  --bg-void: #07090e;
+  --bg-cosmos: #0b0e17;
+
+  /* 30% Structural Panels */
+  --bg-panel: #101624;
+  --bg-panel-elevated: #161f33;
+  --bg-inset: #090d16;
+
+  /* Text Hierarchy */
+  --text-primary: #f1f5f9;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+
+  /* 10% Calibrated Accents */
+  --accent-cyan: #38bdf8;
+  --accent-electric: #2563eb;
+  --accent-violet: #8b5cf6;
+
+  /* Status Semantics (paired with explicit glyphs & labels) */
+  --status-operational: #34d399;
+  --status-partial: #2dd4bf;
+  --status-concluded: #94a3b8;
+  --status-unknown: #fbbf24;
+
+  /* Hairline Borders */
+  --border-subtle: #1e293b;
+  --border-strong: rgba(56, 189, 248, 0.45);
+
+  /* Typography (2+1 rule: Plus Jakarta Sans + IBM Plex Sans + JetBrains Mono) */
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-sans: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* Geometry & Motion */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --container-max: 1200px;
+  --nav-height: 68px;
+  --ease-settle: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 160ms;
+  --duration-base: 220ms;
+}

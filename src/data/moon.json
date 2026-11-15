@@ -1,0 +1,582 @@
+[
+  {
+    "id": "apollo-11-lm",
+    "name": "Apollo 11 Lunar Module (Eagle) & EASEP",
+    "cosparId": "1969-059C",
+    "category": "moon",
+    "missionType": "Crewed Lander & Surface Experiments",
+    "agency": "NASA",
+    "launchYear": 1969,
+    "launchDate": "1969-07-16T13:32:00Z",
+    "destination": "Moon — Mare Tranquillitatis (Tranquility Base)",
+    "shortDescription": "The first crewed spacecraft to land on the Moon. Its descent stage and scientific experiments remain at Tranquility Base, where its passive laser retroreflector still yields data today.",
+    "quickOverview": "On July 20, 1969, Apollo 11 Lunar Module Eagle carried Neil Armstrong and Buzz Aldrin to the Sea of Tranquility. While the crew returned safely to Earth, Eagle's octagonal descent stage and the Early Apollo Scientific Experiments Package (EASEP) were left on the Moon—turning Tranquility Base into both a historic landing site and a decades-long scientific observatory.",
+    "scientificSummary": "Designated NSSDCA ID 1969-059C, LM-5 Eagle executed a powered descent to Mare Tranquillitatis before deploying EASEP ~17 m south of the lander. While the Passive Seismic Experiment Package (PSEP) ceased responding on August 27, 1969, the passive 100-corner fused-silica Laser Ranging Retroreflector (LRRR, 1969-059C-04) requires no electrical power and remains an active geodetic target for Earth-based Lunar Laser Ranging stations.",
+    "missionObjectives": [
+      "Perform the first crewed lunar landing and safely return the crew and lunar samples to Earth.",
+      "Deploy the Early Apollo Scientific Experiments Package (EASEP) on the lunar surface.",
+      "Collect documented lunar rock and regolith samples from Mare Tranquillitatis.",
+      "Test lunar surface extravehicular mobility, photography, and communications."
+    ],
+    "launchDetails": {
+      "dateUtc": "1969-07-16T13:32:00Z",
+      "vehicle": "Saturn V (SA-506)",
+      "site": "Kennedy Space Center, Launch Complex 39A, Florida",
+      "landingDateUtc": "1969-07-20T20:17:40Z"
+    },
+    "spacecraftSpecifications": {
+      "spacecraftCode": "LM-5 (Eagle)",
+      "ascentStageDryMass": "2,445 kg (plus 2,376 kg propellant)",
+      "descentStageDryMass": "2,034 kg (plus 8,248 kg initial propellant)",
+      "descentDimensions": "Octagonal prism, 4.2 m width × 1.7 m height",
+      "easepMass": "48 kg (central PSEP/EASEP package)",
+      "power": "Batteries (LM) & solar panels (PSEP); LRRR requires no power"
+    },
+    "instruments": [
+      {
+        "name": "Laser Ranging Retroreflector (LRRR)",
+        "code": "1969-059C-04",
+        "purpose": "100 fused-silica corner cubes reflecting Earth-based laser pulses for millimeter-scale Earth-Moon distance measurements.",
+        "status": "Operational (passive optical target)"
+      },
+      {
+        "name": "Passive Seismic Experiment Package (PSEP)",
+        "code": "EASEP Central Station",
+        "purpose": "Solar-powered seismometer measuring moonquakes, meteorite impacts, and lunar tidal stresses.",
+        "status": "Non-operational (terminated August 27, 1969)"
+      },
+      {
+        "name": "Solar Wind Composition (SWC) Experiment",
+        "code": "Swiss Foil Experiment",
+        "purpose": "High-purity aluminum/platinum foil sheet exposed on the lunar surface to trap solar wind ions and returned to Earth.",
+        "status": "Returned to Earth for laboratory analysis"
+      }
+    ],
+    "missionJourney": "Following Saturn V launch on July 16, 1969 and lunar orbit insertion on July 19, Eagle undocked from Command Module Columbia on July 20. Navigating past a boulder-strewn crater during manual terminal descent, Armstrong and Aldrin touched down at 20:17:40 UTC. After 21 hours 36 minutes on the surface, the ascent stage lifted off from the descent stage, rejoined Columbia in orbit, and was later jettisoned.",
+    "timeline": [
+      {
+        "date": "1969-07-16 13:32 UTC",
+        "title": "Saturn V Launch",
+        "description": "Apollo 11 lifts off from Launch Complex 39A at Kennedy Space Center aboard Saturn V SA-506."
+      },
+      {
+        "date": "1969-07-20 20:17 UTC",
+        "title": "Touchdown at Tranquility Base",
+        "description": "Eagle's descent stage lands in Mare Tranquillitatis at 0.67416° N, 23.47314° E."
+      },
+      {
+        "date": "1969-07-21 02:56 UTC",
+        "title": "First Human Footsteps & EASEP Deployment",
+        "description": "Armstrong and Aldrin collect 21.55 kg of lunar samples and deploy EASEP south of the lander."
+      },
+      {
+        "date": "1969-07-21 17:54 UTC",
+        "title": "Ascent Stage Liftoff & Jettison",
+        "description": "The upper ascent stage launches from the descent stage platform, redocks with Columbia, and is jettisoned into lunar orbit."
+      },
+      {
+        "date": "1969-08-27",
+        "title": "EASEP Seismic Operations End",
+        "description": "During its second lunar day, the EASEP central station stops accepting commands from Earth; active telemetry terminates."
+      },
+      {
+        "date": "2011-11-05",
+        "title": "Lunar Reconnaissance Orbiter Verification",
+        "description": "LROC captures high-resolution orbital imagery resolving Eagle's descent stage, EASEP hardware, and astronaut footpath tracks."
+      }
+    ],
+    "discoveries": [
+      "Returned 21.55 kg of basaltic mare rocks and regolith, establishing absolute lunar chronology (~3.7 billion years for Tranquility Base basalts).",
+      "LRRR measurements tracked the Moon receding from Earth at ~3.8 cm/year and enabled precision tests of General Relativity and lunar core structure.",
+      "PSEP recorded the first seismic events directly on the Moon, demonstrating how long seismic waves ring in dry, fractured lunar crust."
+    ],
+    "missionEnd": {
+      "date": "1969-08-27 (EASEP PSEP); 1969-07-21 (LM surface departure)",
+      "summary": "The descent stage remained permanently as the launch platform for the ascent stage. Active seismic telemetry ended on August 27, 1969, while the unpowered LRRR continues returning laser pulses to terrestrial observatories."
+    },
+    "currentStatus": {
+      "state": "partial",
+      "label": "Descent Stage Inactive • LRRR Active • Ascent Stage Unknown",
+      "explanation": "Eagle's descent stage and PSEP sit intact and non-operational at Tranquility Base (verified by LRO). The passive Laser Ranging Retroreflector remains scientifically active. The jettisoned ascent stage was not tracked to impact; its present orbital or impact state is unconfirmed."
+    },
+    "location": {
+      "body": "Moon",
+      "region": "Mare Tranquillitatis (Tranquility Base)",
+      "coordinates": {
+        "lat": 0.67416,
+        "lon": 23.47314,
+        "precision": "confirmed",
+        "frame": "DE 421 via Lunar Reconnaissance Orbiter (Descent Stage)"
+      },
+      "trajectoryNote": "EASEP central station sits ~17 m south (0.6735° N, 23.4730° E), with the LRRR ~5 m NNW of EASEP. The Ascent Stage location is unknown."
+    },
+    "historicalSignificance": "Apollo 11 proved human interplanetary travel and surface return were achievable while pioneering permanent off-world geophysical observatories.",
+    "story": "When Armstrong and Aldrin climbed back into Eagle on July 21, 1969, they left behind more than footprints. To save precious ascent mass, every kilogram they no longer needed stayed on the Sea of Tranquility—including Eagle's octagonal descent stage and a silent array of 100 glass prisms. More than half a century later, pulses of laser light fired from Earth still strike those prisms and bounce home.",
+    "images": [
+      {
+        "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/lunar-science/2023/08/detail_as11-40-5927_orig.jpg?w=1200&h=1200&fit=clip&crop=faces%2Cfocalpoint",
+        "alt": "Apollo 11 Lunar Module Eagle on the lunar surface with Buzz Aldrin retrieving EASEP",
+        "caption": "Buzz Aldrin retrieves the EASEP experiments from Lunar Module Eagle at Tranquility Base (AS11-40-5927). Credit: NASA/JSC."
+      },
+      {
+        "url": "https://nssdc.gsfc.nasa.gov/image/spacecraft/apollo_lm_diagram.gif",
+        "alt": "Engineering diagram of the Apollo Lunar Module ascent and descent stages",
+        "caption": "Apollo Lunar Module structural diagram distinguishing the separable Ascent Stage and Descent Stage. Credit: NASA / NSSDCA."
+      },
+      {
+        "url": "https://www.nasa.gov/wp-content/uploads/2024/07/s69-39961orig.jpg",
+        "alt": "Apollo 11 Saturn V launch from Kennedy Space Center",
+        "caption": "Apollo 11 liftoff aboard Saturn V SA-506 on July 16, 1969. Credit: NASA."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 3D Experience will connect verified NASA Visualization Technology models or clearly labeled schematic geometry."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — Apollo 11 Lunar Module / EASEP (1969-059C)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+        "organization": "NASA Goddard Space Science Data Coordinated Archive"
+      },
+      {
+        "title": "Apollo 11 Official Mission Page",
+        "url": "https://www.nasa.gov/mission/apollo-11/",
+        "organization": "NASA"
+      },
+      {
+        "title": "Apollo 11 Mission Overview",
+        "url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
+        "organization": "NASA History"
+      }
+    ]
+  },
+  {
+    "id": "apollo-alsep",
+    "name": "Apollo Lunar Surface Experiments Package (ALSEP)",
+    "cosparId": "1969-099C / 1971-008C / 1971-063C / 1972-031C / 1972-096C",
+    "category": "moon",
+    "missionType": "Nuclear-Powered Geophysical Observatory Network",
+    "agency": "NASA",
+    "launchYear": 1969,
+    "launchDate": "1969-11-14T16:22:00Z",
+    "destination": "Moon — Five Sites (Oceanus Procellarum to Taurus-Littrow)",
+    "shortDescription": "Five long-duration automated geophysical stations deployed by Apollo 12, 14, 15, 16, and 17 crews that monitored moonquakes, heat flow, and the lunar magnetic environment until September 1977.",
+    "quickOverview": "After Apollo 11's short-lived solar-powered EASEP station, NASA equipped Apollos 12, 14, 15, 16, and 17 with the Apollo Lunar Surface Experiments Package (ALSEP). Powered by plutonium-238 nuclear generators that worked continuously through two-week freezing lunar nights, the five stations operated as a Moon-wide seismic and environmental network for nearly eight years.",
+    "scientificSummary": "Each ALSEP revolved around a central telemetry station powered by a SNAP-27 Radioisotope Thermoelectric Generator (RTG) producing ~70 W electrical power. Operating across Oceanus Procellarum (Apollo 12), Fra Mauro (14), Hadley-Apennine (15), Descartes Highlands (16), and Taurus-Littrow (17), the stations transmitted data continuously until NASA shut down active telemetry on September 30, 1977. Passive LRRR reflectors deployed alongside Apollos 14 and 15 remain active optical targets.",
+    "missionObjectives": [
+      "Establish a multi-station lunar seismic network to determine the Moon's crust, mantle, and core structure.",
+      "Measure lunar internal heat flow, local magnetic anomalies, solar wind particles, and trace lunar atmosphere.",
+      "Conduct active seismic profiling using thumpers and mortar/explosive charges.",
+      "Extend continuous surface geophysical monitoring across multiple lunar years regardless of day/night cycles."
+    ],
+    "launchDetails": {
+      "firstDeploymentLaunchUtc": "1969-11-14T16:22:00Z (Apollo 12, Intrepid)",
+      "subsequentLaunches": "Apollo 14 (1971-01-31), Apollo 15 (1971-07-26), Apollo 16 (1972-04-16), Apollo 17 (1972-12-07)",
+      "vehicle": "Saturn V",
+      "site": "Kennedy Space Center, Launch Complex 39A, Florida"
+    },
+    "spacecraftSpecifications": {
+      "networkCount": "5 nuclear-powered ALSEP stations (Apollos 12, 14, 15, 16, 17)",
+      "powerSystem": "SNAP-27 Plutonium-238 RTG (~63–75 W continuous output)",
+      "communication": "S-band central station with helical antenna transmitting directly to Earth",
+      "apollo12Coords": "3.0098° S, 23.4249° W (Oceanus Procellarum)",
+      "apollo15Coords": "26.1341° N, 3.6299° E (Hadley-Apennine)",
+      "apollo17Coords": "20.1923° N, 30.7655° E (Taurus-Littrow)"
+    },
+    "instruments": [
+      {
+        "name": "Passive & Active Seismic Experiments (PSE / ASE)",
+        "code": "Apollos 12, 14, 15, 16, 17",
+        "purpose": "Triangulated deep moonquakes, shallow tectonic quakes, and meteoroid/booster impacts across the Moon.",
+        "status": "Shut down September 30, 1977"
+      },
+      {
+        "name": "Heat Flow Experiment (HFE)",
+        "code": "Apollos 15, 17",
+        "purpose": "Measured subsurface temperature gradients in drilled boreholes to calculate internal lunar heat flux.",
+        "status": "Shut down September 30, 1977"
+      },
+      {
+        "name": "Lunar Surface Magnetometer & Solar Wind Spectrometer",
+        "code": "LSM / SWS",
+        "purpose": "Mapped crustal magnetic anomalies and solar wind plasma interactions with the lunar surface.",
+        "status": "Shut down September 30, 1977"
+      },
+      {
+        "name": "Lunar Ranging Retroreflectors (LRRR)",
+        "code": "Apollos 14 & 15",
+        "purpose": "Unpowered optical corner-cube arrays expanding the Earth-Moon laser ranging baseline.",
+        "status": "Operational (passive optical targets)"
+      }
+    ],
+    "missionJourney": "Astronauts carried each ALSEP inside the Lunar Module scientific equipment bay, assembled the SNAP-27 fuel cask on the surface using specialized tools, and deployed instruments along 100-meter cables away from blast zones. Stations operated years beyond their 1-to-2 year design life until programmatic budget reductions ended tracking in 1977.",
+    "timeline": [
+      {
+        "date": "1969-11-19",
+        "title": "Apollo 12 Deploys First Nuclear ALSEP",
+        "description": "Pete Conrad and Alan Bean activate the first SNAP-27-powered ALSEP in Oceanus Procellarum (3.0098° S, 23.4249° W)."
+      },
+      {
+        "date": "1971-02-05",
+        "title": "Apollo 14 Fra Mauro Station",
+        "description": "Deploys ALSEP at 3.6442° S, 17.4777° W along with a 100-cube Laser Ranging Retroreflector."
+      },
+      {
+        "date": "1971-07-31",
+        "title": "Apollo 15 Hadley-Apennine Station",
+        "description": "Adds deep borehole Heat Flow Experiment and a larger 300-cube LRRR at 26.1341° N, 3.6299° E."
+      },
+      {
+        "date": "1972-04-21",
+        "title": "Apollo 16 Descartes Highlands Station",
+        "description": "Installs first highlands ALSEP network node at 8.9759° S, 15.4986° E."
+      },
+      {
+        "date": "1972-12-12",
+        "title": "Apollo 17 Completes Five-Station Network",
+        "description": "Final ALSEP station deployed at Taurus-Littrow (20.1923° N, 30.7655° E)."
+      },
+      {
+        "date": "1977-09-30",
+        "title": "All Active ALSEP Stations Shut Down",
+        "description": "NASA sends final shutdown commands to all remaining active ALSEP transmitters to reallocate tracking funds."
+      }
+    ],
+    "discoveries": [
+      "Revealed four distinct categories of lunar seismic events: deep moonquakes tied to Earth tides, shallow moonquakes up to magnitude ~5, meteoroid impacts, and thermal quakes.",
+      "Provided seismic velocity profiles showing a ~30–60 km lunar crust and evidence for a differentiated mantle and small core.",
+      "Uncovered unexpected upward thermal spikes in HFE data later linked to astronaut disturbance of dark surface regolith—prompting decades-later archival data recovery."
+    ],
+    "missionEnd": {
+      "date": "1977-09-30",
+      "summary": "All active ALSEP central stations were turned off by command on September 30, 1977 due to budget priorities, even though several instruments were still returning usable data."
+    },
+    "currentStatus": {
+      "state": "partial",
+      "label": "Electronic Stations Shut Down • Passive LRRRs Active",
+      "explanation": "All five ALSEP electronic central stations and nuclear-powered instruments remain physically intact on the Moon (verified by LRO imagery) and have been shut down since September 30, 1977. However, the unpowered optical LRRR arrays left by Apollos 14 and 15 continue serving Earth-based laser ranging today."
+    },
+    "location": {
+      "body": "Moon",
+      "region": "Five documented Apollo landing regions (12, 14, 15, 16, 17)",
+      "coordinates": {
+        "lat": -3.0098,
+        "lon": -23.4249,
+        "precision": "confirmed (Apollo 12 listed; all 5 ALSEP sites resolved by LROC)",
+        "frame": "Mean Earth / Polar Axis via LRO"
+      },
+      "trajectoryNote": "Five distributed station coordinates: Apollo 12 (3.0098° S, 23.4249° W), Apollo 14 (3.6442° S, 17.4777° W), Apollo 15 (26.1341° N, 3.6299° E), Apollo 16 (8.9759° S, 15.4986° E), and Apollo 17 (20.1923° N, 30.7655° E)."
+    },
+    "historicalSignificance": "ALSEP constituted the first multi-station planetary geophysical network beyond Earth, establishing the foundation of lunar seismology.",
+    "story": "Apollo astronauts didn't stay on the Moon for more than three days—yet their scientific instruments listened to the Moon tremble for nearly eight years. Powered by glowing plutonium capsules tucked inside protective casks, five silent ALSEP outposts tracked thousands of moonquakes through blistering lunar noon and minus-170-degree night until engineers reluctantly switched off their radios in 1977.",
+    "images": [
+      {
+        "url": "https://images-assets.nasa.gov/image/as12-47-6913/as12-47-6913~medium.jpg",
+        "alt": "Apollo 12 astronaut deploying the ALSEP experiments package on the Moon",
+        "caption": "Apollo 12 astronaut carries ALSEP equipment across Oceanus Procellarum (AS12-47-6913). Credit: NASA."
+      },
+      {
+        "url": "https://images-assets.nasa.gov/image/as15-85-11471/as15-85-11471~medium.jpg",
+        "alt": "Apollo 15 Lunar Module Falcon and ALSEP experiments site at Hadley-Apennine",
+        "caption": "Apollo 15 ALSEP deployment area near Hadley-Apennine (AS15-85-11471). Credit: NASA."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 will evaluate schematic ALSEP central station and SNAP-27 geometry."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — Apollo 12 LM / ALSEP (1969-099C)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "NSSDCA Master Catalog — Apollo 15 LM / ALSEP (1971-063C)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "NSSDCA Master Catalog — Apollo 16 LM / ALSEP (1972-031C)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-031C",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "NSSDCA Master Catalog — Apollo 17 LM / ALSEP (1972-096C)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-096C",
+        "organization": "NASA NSSDCA"
+      }
+    ]
+  },
+  {
+    "id": "lunar-roving-vehicles",
+    "name": "Lunar Roving Vehicles (LRV-1, LRV-2, LRV-3)",
+    "cosparId": "1971-063D / 1972-031D / 1972-096D",
+    "category": "moon",
+    "missionType": "Crewed Electric Surface Rovers",
+    "agency": "NASA (Marshall Space Flight Center / Boeing / Delco)",
+    "launchYear": 1971,
+    "launchDate": "1971-07-26T13:34:00Z",
+    "destination": "Moon — Hadley-Apennine, Descartes Highlands & Taurus-Littrow",
+    "shortDescription": "Three collapsible electric 'Moon buggies' carried by Apollos 15, 16, and 17 that expanded astronaut exploration range up to 7.6 km from the Lunar Module and remain parked on the Moon.",
+    "quickOverview": "Folded tightly into the side of the Apollo Lunar Module descent stage like origami, each 210-kg electric Lunar Roving Vehicle unfolded on the Moon to carry two astronauts, tools, television cameras, and rock samples across rugged craters and mountain slopes. All three rovers were parked neatly away from their Lunar Modules before liftoff so their cameras could televise the crews launching back into space.",
+    "scientificSummary": "Built by Boeing and Delco Electronics under NASA Marshall Space Flight Center, LRV-1 (Apollo 15), LRV-2 (Apollo 16), and LRV-3 (Apollo 17) each featured four independent 0.25 hp DC hub motors driving zinc-coated woven piano-wire mesh tires, powered by two 36 V silver-zinc primary batteries. Carrying up to 490 kg of lunar payload despite an Earth curb mass of only 210 kg, the three vehicles logged 27.8 km, 26.7 km, and 35.9 km respectively—totaling 90.4 km across three distinct geological provinces.",
+    "missionObjectives": [
+      "Dramatically expand Apollo astronaut surface traverse range beyond walking limits.",
+      "Transport geological tools, portable magnetometers, gravimeters, and heavy lunar core/rock samples.",
+      "Carry the Lunar Communications Relay Unit (LCRU) for live Earth-controlled color TV broadcasts.",
+      "Capture video of Lunar Module ascent liftoff from a safe distance after crew departure."
+    ],
+    "launchDetails": {
+      "lrv1LaunchUtc": "1971-07-26T13:34:00Z (Apollo 15)",
+      "lrv2LaunchUtc": "1972-04-16T17:54:00Z (Apollo 16)",
+      "lrv3LaunchUtc": "1972-12-07T05:33:00Z (Apollo 17)",
+      "vehicle": "Saturn V (stowed in LM Quadrant 1)"
+    },
+    "spacecraftSpecifications": {
+      "curbMass": "210 kg on Earth (~34 kgf weight on Moon)",
+      "payloadCapacity": "490 kg (astronauts + life support + tools + samples)",
+      "dimensions": "3.1 m length × 2.3 m wheelbase × 1.14 m height",
+      "power": "Two 36-volt silver-zinc potassium hydroxide primary batteries",
+      "drivetrain": "Four independent 0.25 hp DC series-wound electric wheel motors",
+      "distancesDriven": "LRV-1: 27.8 km | LRV-2: 26.7 km | LRV-3: 35.9 km"
+    },
+    "instruments": [
+      {
+        "name": "Lunar Communications Relay Unit (LCRU) & Ground-Commanded TV",
+        "code": "S-band High-Gain Dish",
+        "purpose": "Provided direct voice, telemetry, and live pan/tilt color television controlled from Houston.",
+        "status": "Depleted / non-operational"
+      },
+      {
+        "name": "Dead-Reckoning Navigation System",
+        "code": "Directional Gyro & Odometers",
+        "purpose": "Calculated bearing and straight-line distance back to the Lunar Module for safety.",
+        "status": "Depleted / non-operational"
+      },
+      {
+        "name": "Traverse Gravimeter & Surface Electrical Properties (Apollo 17)",
+        "code": "Mission-Specific Payloads",
+        "purpose": "Measured subsurface gravity anomalies and dielectric structure along Taurus-Littrow traverses.",
+        "status": "Non-operational / parked with LRV-3"
+      }
+    ],
+    "missionJourney": "Each LRV deployed automatically via astronaut-pulled lanyards from Quadrant 1 of the Lunar Module descent stage. Crews drove across Hadley Rille (Apollo 15), Stone Mountain (Apollo 16), and the Taurus-Littrow valley (Apollo 17), reaching up to 7.6 km away from their landers during Apollo 17's third EVA.",
+    "timeline": [
+      {
+        "date": "1971-07-31",
+        "title": "LRV-1 First Drive (Apollo 15)",
+        "description": "David Scott and James Irwin become the first humans to drive on another world, logging 27.8 km over 3h 02m driving time."
+      },
+      {
+        "date": "1972-04-21",
+        "title": "LRV-2 Highlands Traverses (Apollo 16)",
+        "description": "John Young and Charles Duke drive 26.7 km across Descartes Highlands over 3h 26m."
+      },
+      {
+        "date": "1972-12-11 / 12-14",
+        "title": "LRV-3 Record Range (Apollo 17)",
+        "description": "Gene Cernan and Harrison Schmitt cover 35.9 km total—including a 20.1 km single traverse and 7.6 km maximum range from LM Challenger."
+      },
+      {
+        "date": "1972-12-14 22:54 UTC",
+        "title": "Final Apollo LRV Liftoff Broadcast",
+        "description": "LRV-3's remotely operated TV camera films Challenger's ascent stage lifting off before remaining parked at Taurus-Littrow."
+      }
+    ],
+    "discoveries": [
+      "Enabled collection of 77 kg (Apollo 15), 95 kg (Apollo 16), and 110.5 kg (Apollo 17) of geologically diverse lunar rocks—including the Genesis Rock and Orange Soil.",
+      "Demonstrated wire-mesh tire traction and lightweight electric mobility in 1/6 g abrasive regolith.",
+      "Proved astronauts could safely conduct multi-kilometer geological field expeditions."
+    ],
+    "missionEnd": {
+      "date": "1971-08-02 (LRV-1) | 1972-04-23 (LRV-2) | 1972-12-14 (LRV-3)",
+      "summary": "Each LRV was parked roughly 100–300 meters east of its Lunar Module at mission end so ground controllers could televise ascent stage liftoff before primary batteries depleted."
+    },
+    "currentStatus": {
+      "state": "concluded",
+      "label": "Non-Operational • All Three Rovers Parked Intact",
+      "explanation": "LRV-1, LRV-2, and LRV-3 sit permanently parked in their final positions at Hadley-Apennine, Descartes Highlands, and Taurus-Littrow. Their primary batteries depleted shortly after each mission, and Lunar Reconnaissance Orbiter imagery confirms their parked locations."
+    },
+    "location": {
+      "body": "Moon",
+      "region": "Hadley-Apennine (26.13° N, 3.63° E), Descartes (8.97° S, 15.50° E), Taurus-Littrow (20.19° N, 30.77° E)",
+      "coordinates": {
+        "lat": 20.1908,
+        "lon": 30.7717,
+        "precision": "confirmed (Apollo 17 Taurus-Littrow site shown; all 3 LRV sites imaged by LRO)",
+        "frame": "Lunar Reconnaissance Orbiter surface verification"
+      },
+      "trajectoryNote": "Parked near the Apollo 15, 16, and 17 Lunar Module descent stages with visible wheel tracks preserved in lunar regolith."
+    },
+    "historicalSignificance": "The Apollo LRVs were humanity's first crewed off-world automobiles, transforming Apollo from localized landings into true planetary field expeditions.",
+    "story": "With no air, no roads, and temperatures swinging hundreds of degrees, conventional rubber tires and combustion engines could never work on the Moon. Engineers built a 210-kilogram aluminum-and-mesh electric rover light enough for one astronaut to lift in lunar gravity—yet tough enough to carry geologists nearly eight kilometers from safety and send back live television of humanity's final Apollo liftoff.",
+    "images": [
+      {
+        "url": "https://images-assets.nasa.gov/image/as15-88-11901/as15-88-11901~medium.jpg",
+        "alt": "Apollo 15 Lunar Roving Vehicle parked near Hadley Rille with Jim Irwin",
+        "caption": "Apollo 15 LRV-1 parked beside Hadley-Apennine terrain during EVA operations (AS15-88-11901). Credit: NASA."
+      },
+      {
+        "url": "https://images-assets.nasa.gov/image/as17-147-22526/as17-147-22526~medium.jpg",
+        "alt": "Apollo 17 Commander Eugene Cernan driving Lunar Roving Vehicle LRV-3",
+        "caption": "Eugene Cernan makes a checkout drive in LRV-3 during Apollo 17 EVA-1 at Taurus-Littrow (AS17-147-22526). Credit: NASA."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 will evaluate NASA 3D Resources Apollo LRV model."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA — Apollo 15 Lunar Roving Vehicle / Mission Data",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "NASA Apollo Lunar Roving Vehicle Fact Sheet & Distances",
+        "url": "https://www.nasa.gov/history/alsj/lrv_info.html",
+        "organization": "NASA Apollo Lunar Surface Journal"
+      },
+      {
+        "title": "NSSDCA — Apollo 17 Mission & LRV-3 Record (1972-096C)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-096C",
+        "organization": "NASA NSSDCA"
+      }
+    ]
+  },
+  {
+    "id": "surveyor-3",
+    "name": "Surveyor 3",
+    "cosparId": "1967-035A",
+    "category": "moon",
+    "missionType": "Robotic Lunar Lander",
+    "agency": "NASA (JPL / Hughes Aircraft)",
+    "launchYear": 1967,
+    "launchDate": "1967-04-17T07:05:01Z",
+    "destination": "Moon — Oceanus Procellarum (Surveyor Crater)",
+    "shortDescription": "Robotic lander that bounced twice before resting inside a crater in 1967, dug the first trenches on the Moon, and became the only spacecraft visited on another world by Apollo 12 astronauts.",
+    "quickOverview": "Before astronauts could land on the Moon, NASA needed to know if lunar dust was firm enough to hold a spacecraft. Surveyor 3 touched down in April 1967 inside a 200-meter crater, scooped and tested the soil with a small mechanical claw, and sent back over 6,300 photos. Two and a half years later, Apollo 12 astronauts landed 160 meters away and walked down the crater slope to inspect it.",
+    "scientificSummary": "Built by Hughes Aircraft for JPL (NSSDCA 1967-035A), Surveyor 3 used a Doppler radar and vernier-engine system to attempt a soft landing on April 20, 1967. Radar confusion over rocks caused its engines to remain firing briefly at touchdown, making it bounce twice before coming to rest tilted ~14° inside what became Surveyor Crater. It operated until May 3, 1967, returning 6,315 television images and performing soil mechanics tests before Apollo 12 retrieved its TV camera and scoop in November 1969.",
+    "missionObjectives": [
+      "Verify lunar surface bearing strength and soil cohesion for upcoming crewed Apollo landings.",
+      "Demonstrate soft-landing propulsion and surface trenching with the Surface Sampler arm.",
+      "Capture high-resolution panoramic photography and thermal/radar reflectivity data."
+    ],
+    "launchDetails": {
+      "dateUtc": "1967-04-17T07:05:01Z",
+      "vehicle": "Atlas-Centaur (AC-12)",
+      "site": "Cape Canaveral, Launch Complex 36B, Florida",
+      "landingDateUtc": "1967-04-20T00:04:53Z"
+    },
+    "spacecraftSpecifications": {
+      "spacecraftCode": "Surveyor C",
+      "landingMass": "~281 kg (dry landed mass without retro-motor)",
+      "power": "Solar panel mast (~85 W) + silver-zinc battery",
+      "imagesReturned": "6,315 television pictures",
+      "surfaceSampler": "Extendable pantograph arm with 5 cm scoop claw"
+    },
+    "instruments": [
+      {
+        "name": "Survey Television Camera",
+        "code": "1967-035A-01",
+        "purpose": "Vidicon camera with mirror assembly; photographed the crater interior and Earth eclipsing the Sun.",
+        "status": "Retrieved by Apollo 12 crew (now in National Air and Space Museum)"
+      },
+      {
+        "name": "Soil Mechanics Surface Sampler",
+        "code": "1967-035A-02",
+        "purpose": "Dug 4 trenches up to 17.5 cm deep and pressed soil to measure lunar regolith strength.",
+        "status": "Scoop retrieved by Apollo 12; arm remains on Moon"
+      }
+    ],
+    "missionJourney": "Launched April 17, 1967, Surveyor 3 completed one midcourse correction and braked via solid retrorocket before bouncing twice across the inner wall of Surveyor Crater on April 20. After two weeks of operations, it shut down at lunar sunset on May 3, 1967 and never awoke—until Apollo 12 astronauts Pete Conrad and Alan Bean visited the silent lander on November 19, 1969.",
+    "timeline": [
+      {
+        "date": "1967-04-17 07:05 UTC",
+        "title": "Atlas-Centaur Launch",
+        "description": "Surveyor 3 launches from Cape Canaveral LC-36B on a direct 65-hour lunar transit."
+      },
+      {
+        "date": "1967-04-20 00:04 UTC",
+        "title": "Bouncing Touchdown in Surveyor Crater",
+        "description": "After two unexpected rebounds due to vernier engine firing, Surveyor 3 settles upright on a 14° crater slope."
+      },
+      {
+        "date": "1967-04-21 / 05-03",
+        "title": "Trenching & 6,315 Images",
+        "description": "Digs trenches proving lunar regolith supports ~45 kPa bearing pressure; transmits 6,315 photos before lunar nightfall."
+      },
+      {
+        "date": "1967-05-03",
+        "title": "Final Signal Prior to Lunar Night",
+        "description": "Communications cease at lunar sunset; attempts to recontact on May 19 after sunrise are unsuccessful."
+      },
+      {
+        "date": "1969-11-19",
+        "title": "Visited by Apollo 12 Astronauts",
+        "description": "Apollo 12 LM Intrepid lands ~160 m away; Conrad and Bean inspect Surveyor 3 and bring home its TV camera and sampler scoop."
+      }
+    ],
+    "discoveries": [
+      "Proved lunar regolith behaves like damp terrestrial sand with sufficient strength for heavy crewed Lunar Modules.",
+      "Provided the first direct measurements of lunar soil mechanics through trenching and bearing tests.",
+      "Gave engineers a unique 2.5-year natural space-exposure laboratory when Apollo 12 returned components for micrometeorite and radiation inspection."
+    ],
+    "missionEnd": {
+      "date": "1967-05-03",
+      "summary": "Surveyor 3 operated through its first lunar day and went silent after lunar nightfall on May 3, 1967 without waking at sunrise."
+    },
+    "currentStatus": {
+      "state": "concluded",
+      "label": "Non-Operational • Lander Body Intact (Camera Returned to Earth)",
+      "explanation": "The Surveyor 3 spacecraft frame, solar mast, and landing legs remain stationary inside Surveyor Crater (verified by LRO), minus the television camera, soil scoop, and tubing samples retrieved by Apollo 12 in 1969."
+    },
+    "location": {
+      "body": "Moon",
+      "region": "Oceanus Procellarum / Mare Cognitum (Surveyor Crater)",
+      "coordinates": {
+        "lat": -3.015,
+        "lon": 336.66,
+        "precision": "confirmed (3.015° S, 23.34° W)",
+        "frame": "NSSDCA / LRO lunar planetocentric"
+      },
+      "trajectoryNote": "Located ~155–175 meters from the Apollo 12 Lunar Module Intrepid descent stage."
+    },
+    "historicalSignificance": "Surveyor 3 bridged robotic reconnaissance and human exploration, becoming the only off-world spacecraft ever physically visited and sampled by astronauts.",
+    "story": "In 1967, Surveyor 3 bounced twice across a hidden lunar crater before digging four small trenches to prove astronauts wouldn't sink into lunar dust. Nobody expected humans to ever see it again—until November 1969, when Apollo 12's Pete Conrad and Alan Bean landed right on the crater rim, walked down the slope, and brought Surveyor's camera home to Earth.",
+    "images": [
+      {
+        "url": "https://www.nasa.gov/wp-content/uploads/2023/03/as12-48-7134.jpg",
+        "alt": "Apollo 12 astronaut Pete Conrad inspecting Surveyor 3 with Lunar Module Intrepid on the crater rim",
+        "caption": "Apollo 12 Commander Pete Conrad examines Surveyor 3 inside Surveyor Crater with LM Intrepid on the distant rim (AS12-48-7134). Credit: NASA."
+      },
+      {
+        "url": "https://images-assets.nasa.gov/image/AS12-48-7133/AS12-48-7133~medium.jpg",
+        "alt": "Surveyor 3 resting on the lunar crater slope with Apollo 12 Intrepid on the horizon",
+        "caption": "Two U.S. spacecraft on the Moon: Surveyor 3 in the foreground and Apollo 12 LM Intrepid in the distance (AS12-48-7133). Credit: NASA."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 will evaluate schematic Surveyor lander geometry."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — Surveyor 3 (1967-035A)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "Apollo 12 Visit to Surveyor 3 — NASA",
+        "url": "https://www.nasa.gov/history/50-years-ago-apollo-12-visits-surveyor-3/",
+        "organization": "NASA History"
+      }
+    ]
+  }
+]

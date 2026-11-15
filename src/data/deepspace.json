@@ -1,0 +1,744 @@
+[
+  {
+    "id": "pioneer-10",
+    "name": "Pioneer 10",
+    "cosparId": "1972-012A",
+    "category": "deep-space",
+    "missionType": "Outer Planet Flyby & Heliosphere Probe",
+    "agency": "NASA (Ames Research Center)",
+    "launchYear": 1972,
+    "launchDate": "1972-03-03T01:49:04Z",
+    "destination": "Jupiter & Solar System Escape Trajectory",
+    "shortDescription": "Humanity's first spacecraft to cross the asteroid belt, fly past Jupiter, and enter a trajectory bound for interstellar space. Silent since January 2003.",
+    "quickOverview": "Launched in March 1972 on a planned 21-month mission, Pioneer 10 proved spacecraft could survive both the main asteroid belt and Jupiter's intense radiation belts. After transmitting science for over 30 years—far past Neptune's orbit—its nuclear power faded until a final faint signal reached Earth in January 2003.",
+    "scientificSummary": "Built by TRW around a spin-stabilized hexagonal bus with a 2.74 m high-gain dish and four Pu-238 RTGs (155 W at launch), Pioneer 10 (NSSDCA 1972-012A) carried 11 scientific instruments. It mapped Jupiter's magnetosphere, thermal excess, and Galilean moon environments in December 1973, then charted cosmic rays and the outer heliosphere out to ~80–82 AU.",
+    "missionObjectives": [
+      "Test whether a spacecraft could safely traverse the main asteroid belt between Mars and Jupiter.",
+      "Conduct the first direct close-up scientific flyby of Jupiter, its atmosphere, magnetosphere, and Galilean moons.",
+      "Measure solar wind, cosmic rays, and interplanetary dust density across the outer solar system.",
+      "Pave the engineering and navigation path for Voyager, Galileo, and Cassini."
+    ],
+    "launchDetails": {
+      "dateUtc": "1972-03-03T01:49:04Z",
+      "vehicle": "Atlas SLV-3C Centaur-D (AC-27) with Star-37E third stage",
+      "site": "Cape Canaveral, Launch Complex 36A, Florida",
+      "closestApproach": "1973-12-03 / 1973-12-04 (~132,252 km above Jupiter's cloud tops)"
+    },
+    "spacecraftSpecifications": {
+      "spacecraftCode": "Pioneer F",
+      "launchMass": "258 kg",
+      "antenna": "2.74 m (9.0 ft) parabolic high-gain dish",
+      "power": "Four Pu-238 Radioisotope Thermoelectric Generators (155 W at launch)",
+      "stabilization": "Spin-stabilized about high-gain antenna axis",
+      "interstellarPlaque": "Gold-anodized aluminum Pioneer Plaque designed with Carl Sagan & Frank Drake"
+    },
+    "instruments": [
+      {
+        "name": "Imaging Photopolarimeter (IPP)",
+        "code": "Imaging / Polarimetry",
+        "purpose": "Captured strip-by-strip close-up images of Jupiter and Ganymede and measured zodiacal light.",
+        "status": "Unpowered"
+      },
+      {
+        "name": "Helium Vector Magnetometer (HVM)",
+        "code": "Magnetic Fields",
+        "purpose": "Measured interplanetary magnetic fields and Jupiter's immense magnetosphere.",
+        "status": "Unpowered"
+      },
+      {
+        "name": "Geiger Tube Telescope & Charged Particle Instruments",
+        "code": "GTT / CPI / CRT / TRD",
+        "purpose": "Quantified trapped Jovian radiation belts and outer-heliosphere cosmic rays.",
+        "status": "Unpowered"
+      },
+      {
+        "name": "Asteroid/Meteoroid & Plasma Detectors",
+        "code": "AMD / Plasma / IR / UV",
+        "purpose": "Recorded micrometeoroid impacts across the asteroid belt, solar wind plasma, and Jovian thermal radiation.",
+        "status": "Unpowered"
+      }
+    ],
+    "missionJourney": "Pioneer 10 accelerated past Earth faster than any prior spacecraft, entered the asteroid belt in July 1972, and emerged undamaged in February 1973. Passing within ~132,252 km of Jupiter in December 1973, it gained enough gravitational velocity to escape the Sun forever, crossing Neptune's orbit in June 1983.",
+    "timeline": [
+      {
+        "date": "1972-03-03 01:49 UTC",
+        "title": "Launch into Outer Solar System Trajectory",
+        "description": "Liftoff from Cape Canaveral LC-36A aboard Atlas-Centaur AC-27."
+      },
+      {
+        "date": "1972-07-15",
+        "title": "Enters Main Asteroid Belt",
+        "description": "Becomes the first spacecraft to enter the asteroid belt, completing its crossing safely in February 1973."
+      },
+      {
+        "date": "1973-12-03 / 12-04",
+        "title": "First Jupiter Flyby",
+        "description": "Flies ~132,252 km above Jupiter's cloud tops, capturing close-up images of Jupiter and Ganymede while mapping lethal radiation belts."
+      },
+      {
+        "date": "1983-06-13",
+        "title": "Crosses Orbit of Neptune",
+        "description": "Becomes the first human-made object to travel beyond the orbits of all major planets."
+      },
+      {
+        "date": "1997-03-31",
+        "title": "Routine Operations Terminated",
+        "description": "Official mission operations end at ~67 AU due to budget limits, though occasional DSN tracking continues."
+      },
+      {
+        "date": "2002-04-27",
+        "title": "Last Telemetry Received",
+        "description": "Final coherent telemetry data returned via NASA's Deep Space Network."
+      },
+      {
+        "date": "2003-01-23",
+        "title": "Final Signal Detected",
+        "description": "Last faint carrier signal detected from ~12.23 billion km (~80–82 AU); final listening attempt on February 7, 2003 yields no signal."
+      }
+    ],
+    "discoveries": [
+      "Demonstrated the main asteroid belt poses manageable meteoroid risk for outer-planet spacecraft.",
+      "Mapped Jupiter's intense trapped radiation belts, directly informing radiation hardening for Voyager and Galileo.",
+      "Confirmed Jupiter radiates more internal heat than it receives from the Sun and measured outer-heliosphere cosmic-ray modulation."
+    ],
+    "missionEnd": {
+      "date": "1997-03-31 (Official end); 2003-01-23 (Last faint signal)",
+      "summary": "Radioisotope thermoelectric power decayed below the threshold needed to operate its 8-watt transmitter; Pioneer 10 continues coasting silently."
+    },
+    "currentStatus": {
+      "state": "concluded",
+      "label": "Non-Operational • Coasting on Escape Trajectory",
+      "explanation": "Pioneer 10 is unpowered and non-operational, coasting away from the solar system—not landed or crashed on any world. Its exact live position is untracked since 2003, heading generally toward Aldebaran in Taurus."
+    },
+    "location": {
+      "body": "Deep Space (Solar System Escape Trajectory)",
+      "region": "Outer Heliosphere / Interstellar Escape Vector toward Taurus",
+      "coordinates": {
+        "lat": null,
+        "lon": null,
+        "precision": "unconfirmed / untracked since 2003",
+        "frame": "Heliocentric escape trajectory"
+      },
+      "trajectoryNote": "Last detected signal was at ~80–82 AU (~12.23 billion km) on January 23, 2003. Trajectory carries it toward Aldebaran."
+    },
+    "historicalSignificance": "Pioneer 10 transformed outer-planet exploration from speculation into engineering reality, unlocking Voyager, Galileo, Cassini, and New Horizons.",
+    "story": "In 1972, no spacecraft had ever flown past Mars or survived the asteroid belt. Pioneer 10 carried an all-nuclear power supply, an 8-watt radio, and a golden plaque etched with humanity's cosmic address. Thirty years later, across more than 12 billion kilometers of dark space, that tiny signal whispered its last, leaving Pioneer 10 as a silent interstellar envoy.",
+    "images": [
+      {
+        "url": "https://science.nasa.gov/wp-content/uploads/2023/04/jupiter_pioneer_10_art-jpg.webp",
+        "alt": "Artist illustration of Pioneer 10 approaching Jupiter",
+        "caption": "Artist's concept of NASA's Pioneer 10 flying past Jupiter. Credit: NASA."
+      },
+      {
+        "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/i/o/Pioneer_10_Ganymede_2679_AC73-9279-800x600-2.jpg?w=800&h=600&fit=clip&crop=faces%2Cfocalpoint",
+        "alt": "First close-up image of Ganymede taken by Pioneer 10",
+        "caption": "Close-up view of Jupiter's largest moon Ganymede captured by Pioneer 10 in December 1973 (AC73-9279). Credit: NASA."
+      },
+      {
+        "url": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/09/7/739463main_a73-9015-1.jpg",
+        "alt": "The Pioneer Plaque carried aboard Pioneer 10 and Pioneer 11",
+        "caption": "Diagram of the gold-anodized Pioneer Plaque mounted to Pioneer 10 and 11. Credit: NASA Ames Research Center."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 3D Experience will evaluate NASA 3D Resources Pioneer model compatibility."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — Pioneer 10 (1972-012A)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-012A",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "Pioneer 10 — NASA Science Mission Overview",
+        "url": "https://science.nasa.gov/mission/pioneer-10/",
+        "organization": "NASA Science"
+      },
+      {
+        "title": "NASA Planetary Data System — Pioneer 10 IPP Instrument Context",
+        "url": "https://pds.nasa.gov/ds-view/pds/viewContext.jsp?identifier=urn:nasa:pds:context:instrument:ipp.p10&version=1.2",
+        "organization": "NASA PDS"
+      }
+    ]
+  },
+  {
+    "id": "pioneer-11",
+    "name": "Pioneer 11",
+    "cosparId": "1973-019A",
+    "category": "deep-space",
+    "missionType": "Outer Planet Flyby & Heliosphere Probe",
+    "agency": "NASA (Ames Research Center)",
+    "launchYear": 1973,
+    "launchDate": "1973-04-06T02:11:00Z",
+    "destination": "Jupiter, Saturn & Solar System Escape Trajectory",
+    "shortDescription": "Sister probe to Pioneer 10 that swung steeply over Jupiter's poles in 1974 and became the first spacecraft ever to encounter Saturn in 1979—discovering its F ring before heading toward Aquila.",
+    "quickOverview": "Because Pioneer 10 survived Jupiter so well, mission planners aimed Pioneer 11 on a daring hairpin sling past Jupiter's north pole—catapulting it across the entire inner solar system to reach Saturn first. In September 1979, Pioneer 11 skimmed within 21,000 km of Saturn's cloud tops, discovered the narrow F ring, and proved Voyager could safely thread Saturn's rings.",
+    "scientificSummary": "Designated Pioneer G prior to launch (NSSDCA 1973-019A), the 258.5 kg spin-stabilized probe added a twelfth instrument—a Fluxgate Magnetometer—to Pioneer 10's 11-instrument suite (~30.4 kg payload). Passing within ~43,000 km of Jupiter on December 3, 1974, it swung high above the ecliptic to reach Saturn on September 1, 1979 (~21,000 km closest approach). Routine operations ended September 30, 1995, with final engineering data received on November 24, 1995.",
+    "missionObjectives": [
+      "Fly closer to Jupiter than Pioneer 10 and sample high-latitude Jovian magnetospheric regions.",
+      "Perform humanity's first reconnaissance flyby of Saturn, its rings, and Titan.",
+      "Scout ring-plane dust hazards to clear a safe trajectory for Voyager 1 and Voyager 2.",
+      "Map cosmic rays and solar wind across the outer heliosphere on an escape vector opposite Pioneer 10."
+    ],
+    "launchDetails": {
+      "dateUtc": "1973-04-06T02:11:00Z",
+      "vehicle": "Atlas SLV-3C Centaur-D with Star-37E third stage",
+      "site": "Cape Canaveral, Launch Complex 36B, Florida",
+      "saturnFlybyUtc": "1979-09-01 (~21,000 km above cloud tops)"
+    },
+    "spacecraftSpecifications": {
+      "spacecraftCode": "Pioneer G",
+      "launchMass": "258.5 kg",
+      "payloadMass": "~30.4 kg (12 scientific instruments)",
+      "power": "Four Pu-238 RTGs",
+      "antenna": "2.74 m parabolic high-gain dish",
+      "interstellarPlaque": "Identical gold-anodized Pioneer Plaque"
+    },
+    "instruments": [
+      {
+        "name": "Imaging Photopolarimeter (IPP)",
+        "code": "Imaging / Polarimetry",
+        "purpose": "Captured first close-up images of Saturn, its rings, and Titan alongside high-latitude Jupiter views.",
+        "status": "Unpowered"
+      },
+      {
+        "name": "Helium Vector & Fluxgate Magnetometers",
+        "code": "Dual Magnetometers",
+        "purpose": "Confirmed Saturn's intrinsic magnetic field and mapped its unusually aligned magnetic poles.",
+        "status": "Unpowered"
+      },
+      {
+        "name": "Charged Particle, Cosmic Ray & Ring-Plane Detectors",
+        "code": "CPI / CRT / GTT / TRD / Meteoroid",
+        "purpose": "Measured Saturn's radiation belts and ring-plane micrometeoroid hazards for Voyager.",
+        "status": "Unpowered"
+      }
+    ],
+    "missionJourney": "Launched April 6, 1973, Pioneer 11 skimmed past Jupiter at 43,000 km in December 1974—triple the radiation speed of Pioneer 10—bending its course 17 degrees above the ecliptic toward Saturn. Arriving September 1, 1979, it braved Saturn's outer ring plane unscathed before cruising outward toward the constellation Aquila until RTG power dropped too low in late 1995.",
+    "timeline": [
+      {
+        "date": "1973-04-06 02:11 UTC",
+        "title": "Launch from Cape Canaveral",
+        "description": "Pioneer 11 launches from LC-36B aboard an Atlas-Centaur rocket."
+      },
+      {
+        "date": "1974-12-03",
+        "title": "Polar Slingshot Past Jupiter",
+        "description": "Passes within ~43,000 km of Jupiter's cloud tops, redirecting across the solar system toward Saturn."
+      },
+      {
+        "date": "1979-09-01",
+        "title": "First Spacecraft Encounter at Saturn",
+        "description": "Flies ~21,000 km above Saturn's clouds, discovers the narrow F ring and a new moonlet, and measures Saturn's magnetic field."
+      },
+      {
+        "date": "1990-02",
+        "title": "Crosses Neptune's Orbital Distance",
+        "description": "Joins Pioneer 10 and the Voyagers beyond the orbits of all major planets."
+      },
+      {
+        "date": "1995-09-30",
+        "title": "Routine Operations End",
+        "description": "NASA Ames terminates daily operations because declining RTG power prevents science telemetry."
+      },
+      {
+        "date": "1995-11-24",
+        "title": "Last Engineering Data Received",
+        "description": "Final transmission received from ~6.5 billion km before Earth drifts out of the spacecraft's fixed antenna view."
+      }
+    ],
+    "discoveries": [
+      "Discovered Saturn's narrow outer F ring and an additional moonlet while characterizing Saturn's internal heat excess.",
+      "Confirmed Saturn possesses a magnetic field uniquely aligned almost symmetrically with its spin axis.",
+      "Verified Voyager's ring-plane crossing corridor was safe from catastrophic debris impacts."
+    ],
+    "missionEnd": {
+      "date": "1995-09-30 (Routine ops ended); 1995-11-24 (Last data)",
+      "summary": "With RTG electrical output too low to keep instruments and Earth-pointing thrusters operating simultaneously, final data arrived November 24, 1995."
+    },
+    "currentStatus": {
+      "state": "concluded",
+      "label": "Non-Operational • Coasting on Escape Trajectory",
+      "explanation": "Pioneer 11 is unpowered and silent on a solar-system escape trajectory heading roughly toward the constellation Aquila—separate from Pioneer 10's opposite trajectory toward Taurus."
+    },
+    "location": {
+      "body": "Deep Space (Solar System Escape Trajectory)",
+      "region": "Outer Heliosphere / Interstellar Escape Vector toward Aquila",
+      "coordinates": {
+        "lat": null,
+        "lon": null,
+        "precision": "unconfirmed / untracked since late 1995",
+        "frame": "Heliocentric escape trajectory"
+      },
+      "trajectoryNote": "Last contacted at ~44 AU in November 1995; heading generally toward Aquila."
+    },
+    "historicalSignificance": "Pioneer 11 gave humanity its first close-up encounter with Saturn and cleared the orbital path for Voyager 1, Voyager 2, and Cassini.",
+    "story": "While Pioneer 10 flew straight out from Jupiter, Pioneer 11 pulled off one of the boldest trajectory gambles of the 1970s—diving under Jupiter's south pole and climbing high over its north to sling across the solar system to Saturn. When it emerged safely from Saturn's rings in 1979, it opened the ringed giant to the Voyagers before disappearing quietly toward the stars of Aquila.",
+    "images": [
+      {
+        "url": "https://images-assets.nasa.gov/image/ARC-2000-80-HC-251/ARC-2000-80-HC-251~medium.jpg",
+        "alt": "Wilson Hurley painting of Pioneer 11 approaching Saturn and its rings",
+        "caption": "Pioneer 11 pre-encounter with Saturn painted by Wilson Hurley (ARC-2000-80-HC-251). Credit: NASA Ames Research Center."
+      },
+      {
+        "url": "https://images-assets.nasa.gov/image/ARC-1982-AC82-0178/ARC-1982-AC82-0178~medium.jpg",
+        "alt": "NASA artwork depicting the Pioneer spacecraft family including Pioneer 10 and Pioneer 11",
+        "caption": "NASA Ames artwork showing the Pioneer spacecraft family including Pioneer 10 and Pioneer 11 (ARC-1982-AC82-0178). Credit: NASA."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 will share spin-stabilized Pioneer geometry."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — Pioneer 11 (1973-019A)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1973-019A",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "Pioneer 11 — NASA Science Mission Overview",
+        "url": "https://science.nasa.gov/mission/pioneer-11/",
+        "organization": "NASA Science"
+      }
+    ]
+  },
+  {
+    "id": "near-shoemaker",
+    "name": "NEAR Shoemaker",
+    "cosparId": "1996-008A",
+    "category": "deep-space",
+    "missionType": "Asteroid Orbiter & Unplanned Surface Lander",
+    "agency": "NASA / Johns Hopkins APL",
+    "launchYear": 1996,
+    "launchDate": "1996-02-17T20:43:27Z",
+    "destination": "Near-Earth Asteroid 433 Eros",
+    "shortDescription": "First spacecraft to orbit an asteroid and the first to land on one—surviving an unplanned controlled touchdown on 433 Eros at the end of its primary orbital survey.",
+    "quickOverview": "Launched as the very first mission of NASA's Discovery program, NEAR Shoemaker studied near-Earth asteroid 433 Eros from orbit for a full year. Although built purely as an orbiter with no landing legs, engineers gently guided the probe down onto Eros's boulder-strewn surface in February 2001—where it survived to send back 16 more days of surface data.",
+    "scientificSummary": "Built and managed by Johns Hopkins Applied Physics Laboratory for NASA (NSSDCA 1996-008A), NEAR Shoemaker carried six science investigations to determine Eros's bulk density, gravity field, elemental chemistry, mineralogy, and topography. Following an aborted 1998 rendezvous burn and subsequent 1999 recovery, NEAR orbited 433 Eros from February 2000 to February 2001 before executing a ~1.9 m/s touchdown near Himeros crater and operating its XGRS gamma-ray detector directly on the regolith.",
+    "missionObjectives": [
+      "Enter orbit around near-Earth asteroid 433 Eros and survey it continuously for one year.",
+      "Determine bulk properties, density, internal mass distribution, morphology, and surface composition of Eros.",
+      "Search for any intrinsic magnetic field and characterize links between S-type asteroids and ordinary chondrite meteorites.",
+      "Perform a flyby survey of main-belt C-type asteroid 253 Mathilde en route."
+    ],
+    "launchDetails": {
+      "dateUtc": "1996-02-17T20:43:27Z",
+      "vehicle": "Delta II 7925-8 (D232)",
+      "site": "Cape Canaveral Air Force Station, Launch Complex 17B, Florida",
+      "landingDateUtc": "2001-02-12T20:01:00Z (controlled touchdown on 433 Eros)"
+    },
+    "spacecraftSpecifications": {
+      "spacecraftCode": "NEAR (Discovery 1) — renamed NEAR Shoemaker",
+      "launchMass": "805 kg (dry mass: 487 kg)",
+      "power": "Four fixed GaAs solar panels producing 1,800 W at 1 AU",
+      "antenna": "1.5 m high-gain X-band dish",
+      "landingVelocity": "~1.9 m/s (4 mph) controlled descent without landing legs",
+      "telemetryBand": "X-band (7182 MHz uplink / 8438 MHz downlink)"
+    },
+    "instruments": [
+      {
+        "name": "Multi-Spectral Imager (MSI)",
+        "code": "1996-008A-01",
+        "purpose": "Captured >160,000 images of Eros, including extreme close-ups down to ~120 m altitude during descent.",
+        "status": "Non-operational (resting on Eros)"
+      },
+      {
+        "name": "X-Ray/Gamma-Ray Spectrometer (XGRS)",
+        "code": "1996-008A-03",
+        "purpose": "Measured elemental abundances; collected the first in-situ gamma-ray measurements from an asteroid surface after landing.",
+        "status": "Non-operational"
+      },
+      {
+        "name": "Near-Infrared Spectrometer (NIS)",
+        "code": "1996-008A-06",
+        "purpose": "Collected >50,000 mineral spectra covering 60% of Eros before ceasing operation on May 13, 2000.",
+        "status": "Non-operational"
+      },
+      {
+        "name": "Laser Rangefinder (NLR), Magnetometer & Radio Science",
+        "code": "NLR / MAG / RS",
+        "purpose": "Built a global 3D topographic shape model, bounded Eros's magnetic field, and mapped internal gravity distribution.",
+        "status": "Non-operational"
+      }
+    ],
+    "missionJourney": "After flying past dark C-type asteroid 253 Mathilde in June 1997 and swinging past Earth in January 1998, an aborted burn postponed rendezvous in December 1998. Navigators recovered cleanly and inserted NEAR into Eros orbit on February 14, 2000—eventually guiding it to a soft touchdown on February 12, 2001.",
+    "timeline": [
+      {
+        "date": "1996-02-17 20:43 UTC",
+        "title": "First Discovery Program Launch",
+        "description": "NEAR lifts off from Cape Canaveral LC-17B aboard a Delta II rocket."
+      },
+      {
+        "date": "1997-06-27 12:56 UTC",
+        "title": "Flyby of Asteroid 253 Mathilde",
+        "description": "Passes within 1,212 km of carbon-rich asteroid Mathilde, revealing giant impact craters and surprisingly low bulk density."
+      },
+      {
+        "date": "1998-01-23",
+        "title": "Earth Gravity Assist",
+        "description": "Swings past Earth to reshape its orbital inclination toward 433 Eros."
+      },
+      {
+        "date": "1998-12-23",
+        "title": "Initial Eros Flyby",
+        "description": "Following an aborted rendezvous burn, NEAR flies past Eros at ~3,800 km while teams plan a second approach."
+      },
+      {
+        "date": "2000-02-14",
+        "title": "First Orbit Around an Asteroid",
+        "description": "Enters orbit around 433 Eros and is renamed NEAR Shoemaker in honor of astrogeologist Eugene Shoemaker."
+      },
+      {
+        "date": "2001-02-12 20:01 UTC",
+        "title": "Historic Touchdown on 433 Eros",
+        "description": "Descends onto a rock-strewn plain south of Himeros crater at ~1.9 m/s, surviving touchdown intact without landing legs."
+      },
+      {
+        "date": "2001-02-28 / 03-01 UTC",
+        "title": "Final Transmission from Surface",
+        "description": "After a brief mission extension gathering surface gamma-ray data, NEAR Shoemaker sends its final signal before freezing in extreme asteroid cold."
+      }
+    ],
+    "discoveries": [
+      "Proved 433 Eros is a consolidated, heavily fractured stony body (S-type) rather than a loose rubble pile, with uniform internal density.",
+      "Demonstrated Eros lacks a detectable global magnetic field and matches primitive chondritic meteorite compositions.",
+      "Revealed regolith-filled depressions ('ponds') and global boulder distribution tied largely to a single major impact crater.",
+      "Conducted the first gamma-ray spectroscopy measurement directly on the surface of an asteroid."
+    ],
+    "missionEnd": {
+      "date": "2001-02-28 / 2001-03-01 UTC",
+      "summary": "After a 10-day post-landing extension, NEAR Shoemaker succumbed to frigid asteroid temperatures and unfavorable solar geometry."
+    },
+    "currentStatus": {
+      "state": "concluded",
+      "label": "Non-Operational • Resting Intact on 433 Eros",
+      "explanation": "Unlike orbital spacecraft that stay in free space, NEAR Shoemaker ended its mission resting physically intact on the surface of near-Earth asteroid 433 Eros (just south of Himeros crater)."
+    },
+    "location": {
+      "body": "Near-Earth Asteroid 433 Eros",
+      "region": "Surface plain near southern edge of Himeros crater (~35° S, 279° W)",
+      "coordinates": {
+        "lat": -35,
+        "lon": 81,
+        "precision": "approximate documented asteroid surface zone (south of Himeros crater)",
+        "frame": "433 Eros body-fixed (reported as ~35° S, 279° W)"
+      },
+      "trajectoryNote": "Because Eros orbits the Sun every ~1.76 years, NEAR Shoemaker remains anchored to Eros rather than drifting separately."
+    },
+    "historicalSignificance": "NEAR Shoemaker opened the era of small-body rendezvous and surface operations, paving the way for Hayabusa, Rosetta, OSIRIS-REx, and DART.",
+    "story": "Nobody built NEAR Shoemaker to land. It had rigid solar panels, a fixed dish antenna, and no landing gear at all. Yet after spending an entire year circling asteroid 433 Eros, engineers gently set their orbiter down on an alien mountain tumbling through space—and it kept talking from the surface for sixteen unforgettable days.",
+    "images": [
+      {
+        "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/07/nearspacecraft.jpg?w=1350&h=1024&fit=clip&crop=faces%2Cfocalpoint",
+        "alt": "Artist illustration of the NEAR Shoemaker spacecraft",
+        "caption": "Illustration of the NEAR Shoemaker spacecraft showing its four fixed solar panels and high-gain antenna. Credit: NASA / Johns Hopkins APL."
+      },
+      {
+        "url": "https://science.nasa.gov/wp-content/uploads/2017/11/eros-banner-pia02467-1920x640-1.jpg?w=1920",
+        "alt": "Mosaic image of asteroid 433 Eros captured by NEAR Shoemaker",
+        "caption": "Northern hemisphere mosaic of asteroid 433 Eros captured by NEAR Shoemaker (PIA02467). Credit: NASA / Johns Hopkins APL."
+      },
+      {
+        "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/3d/resources/model/near-shoemaker/NEAR%20Shoemaker.png?w=1920&h=1080&fit=clip&crop=faces%2Cfocalpoint",
+        "alt": "NASA 3D render of the NEAR Shoemaker spacecraft",
+        "caption": "Official NASA 3D visualization render of NEAR Shoemaker. Credit: NASA Science."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 3D Experience can integrate NASA Science's verified NEAR Shoemaker 3D model resource."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — NEAR Shoemaker (1996-008A)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-008A",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "NEAR Shoemaker — NASA Science Mission Overview",
+        "url": "https://science.nasa.gov/mission/near-shoemaker/",
+        "organization": "NASA Science"
+      },
+      {
+        "title": "NEAR Shoemaker Mission Archive",
+        "url": "https://www.jhuapl.edu/destinations/missions/near",
+        "organization": "Johns Hopkins Applied Physics Laboratory"
+      }
+    ]
+  },
+  {
+    "id": "dawn",
+    "name": "Dawn",
+    "cosparId": "2007-043A",
+    "category": "deep-space",
+    "missionType": "Solar-Electric Asteroid Belt Orbiter",
+    "agency": "NASA (JPL / UCLA / DLR / ASI)",
+    "launchYear": 2007,
+    "launchDate": "2007-09-27T11:34:00Z",
+    "destination": "Vesta & Dwarf Planet Ceres (Main Asteroid Belt Orbit)",
+    "shortDescription": "First spacecraft to orbit two extraterrestrial bodies—studying giant protoplanet Vesta and dwarf planet Ceres using xenon ion propulsion. Did not land on Ceres; remains in stable Ceres orbit.",
+    "quickOverview": "No chemical rocket could enter orbit around one asteroid, escape it, and enter orbit around a second—so Dawn used three blue-glowing solar-electric xenon ion engines instead. It orbited giant rocky asteroid Vesta for 14 months, broke orbit, and spent three and a half years circling ice-rich dwarf planet Ceres, uncovering mysterious bright salt domes inside Occator Crater before exhausting its thruster fuel in 2018.",
+    "scientificSummary": "NSSDCA 2007-043A launched September 27, 2007 with a 1,217.7 kg wet mass (747.1 kg dry) and 19.7 m solar wings powering three NSTAR-derived xenon ion thrusters. Dawn orbited Vesta from July 16, 2011 to September 5, 2012, then entered orbit around Ceres on March 6, 2015. After depleting its hydrazine attitude-control propellant on October 30–31, 2018 (mission officially declared ended November 1, 2018), Dawn did NOT land—it remains in a stable, planetary-protection-compliant orbit around Ceres.",
+    "missionObjectives": [
+      "Orbit and map the contrasting worlds Vesta (dry rocky protoplanet) and Ceres (water-rich dwarf planet).",
+      "Demonstrate multi-target interplanetary orbital capture using solar-electric ion propulsion.",
+      "Compare internal structure, mineralogy, cratering, and volatile evolution from the solar system's dawn."
+    ],
+    "launchDetails": {
+      "dateUtc": "2007-09-27T11:34:00Z",
+      "vehicle": "Delta II 7925H",
+      "site": "Cape Canaveral Air Force Station, SLC-17B, Florida",
+      "vestaOrbit": "2011-07-16 to 2012-09-05 | Ceres Orbit: Entered 2015-03-06"
+    },
+    "spacecraftSpecifications": {
+      "launchMass": "1,217.7 kg (747.1 kg dry mass)",
+      "propulsion": "Three NSTAR-derived xenon ion thrusters + hydrazine RCS",
+      "power": "Two 8.3 m solar arrays spanning 19.7 m tip-to-tip",
+      "totalDeltaV": "~11.5 km/s achieved via ion propulsion",
+      "planetaryProtection": "Left in long-term stable Ceres orbit (not landed)"
+    },
+    "instruments": [
+      {
+        "name": "Dual Framing Cameras (FC1 / FC2)",
+        "code": "Max Planck / DLR",
+        "purpose": "High-resolution panchromatic and 7-color filter mapping of Vesta and Ceres topography.",
+        "status": "Unpowered (in Ceres orbit)"
+      },
+      {
+        "name": "Visible & Infrared Mapping Spectrometer (VIR)",
+        "code": "ASI / INAF",
+        "purpose": "Mapped mineral and organic/carbonate absorption bands across both worlds.",
+        "status": "Unpowered"
+      },
+      {
+        "name": "Gamma Ray and Neutron Detector (GRaND)",
+        "code": "LANL / NASA",
+        "purpose": "Measured elemental composition including subsurface hydrogen/ice on Ceres.",
+        "status": "Unpowered"
+      }
+    ],
+    "missionJourney": "Using a Mars gravity assist in 2009 and years of gentle ion thrust, Dawn arrived at Vesta in July 2011, departed in September 2012, and reached Ceres in March 2015. Even in its final months of 2018, Dawn swooped within 35 km of Ceres's surface before its final hydrazine drops ran dry.",
+    "timeline": [
+      {
+        "date": "2007-09-27 11:34 UTC",
+        "title": "Launch with Ion Thrusters",
+        "description": "Dawn launches from Cape Canaveral SLC-17B aboard a Delta II Heavy."
+      },
+      {
+        "date": "2011-07-16",
+        "title": "Enters Orbit Around Vesta",
+        "description": "Becomes the first spacecraft to orbit a main-belt asteroid, studying giant Rheasilvia crater for 14 months."
+      },
+      {
+        "date": "2012-09-05",
+        "title": "Escapes Vesta Toward Ceres",
+        "description": "Ion engines spiral Dawn out of Vesta orbit—a historic first departure from one extraterrestrial orbit to reach another."
+      },
+      {
+        "date": "2015-03-06",
+        "title": "Enters Orbit Around Dwarf Planet Ceres",
+        "description": "Becomes the first spacecraft to visit and orbit a dwarf planet (ahead of New Horizons' Pluto flyby)."
+      },
+      {
+        "date": "2018-10-30 / 11-01",
+        "title": "Hydrazine Depleted & Mission Concluded",
+        "description": "Misses scheduled DSN check-ins after exhausting hydrazine attitude fuel; NASA officially concludes the mission on November 1, 2018."
+      }
+    ],
+    "discoveries": [
+      "Confirmed Vesta is a differentiated rocky protoplanet with an iron core and giant southern Rheasilvia impact basin (~500 km wide).",
+      "Solved Ceres's famous 'bright spots' inside Occator Crater—revealing sodium carbonate brine deposits erupted from a deep subsurface salty reservoir.",
+      "Detected organic molecules in Ernutet crater and cryovolcanic mountain Ahuna Mons on Ceres."
+    ],
+    "missionEnd": {
+      "date": "2018-11-01 (Last communication: ~2018-10-30)",
+      "summary": "Dawn depleted its hydrazine attitude-control propellant needed to point its solar arrays and antenna toward Earth; it never crashed or landed on Ceres."
+    },
+    "currentStatus": {
+      "state": "concluded",
+      "label": "Non-Operational • In Stable Orbit Around Ceres",
+      "explanation": "Unlike NEAR Shoemaker, Dawn did NOT land on Ceres. Because Ceres may harbor subsurface brines, NASA placed Dawn in a long-term stable orbit calculated to avoid impacting Ceres for at least decades to preserve planetary protection."
+    },
+    "location": {
+      "body": "Dwarf Planet Ceres (Elliptical Orbit)",
+      "region": "Main Asteroid Belt (~35 km periapsis × ~4,000 km apoapsis orbit at retirement)",
+      "coordinates": {
+        "lat": null,
+        "lon": null,
+        "precision": "untracked orbital body (no surface landing coordinates)",
+        "frame": "Ceres-centered orbit"
+      },
+      "trajectoryNote": "Dawn remains in orbit around Ceres, traveling with Ceres around the Sun."
+    },
+    "historicalSignificance": "Dawn proved solar-electric ion propulsion could turn multi-world deep-space journeys from science fiction into routine mission design.",
+    "story": "No conventional rocket could brake into orbit around one world, climb back out, and brake into orbit around a second—unless it carried an engine powered by sunlight and xenon gas. Dawn's silent blue ion beam carried it to both Vesta and dwarf planet Ceres, where it still circles silently today to keep Ceres's salty subsurface untouched.",
+    "images": [
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA12033/PIA12033~medium.jpg",
+        "alt": "Artist illustration of the Dawn spacecraft with protoplanet Vesta and dwarf planet Ceres",
+        "caption": "Artist concept of NASA's Dawn spacecraft approaching Vesta and Ceres (PIA12033). Credit: NASA/JPL-Caltech."
+      },
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA21906/PIA21906~medium.jpg",
+        "alt": "High-resolution Dawn framing camera mosaic view of dwarf planet Ceres",
+        "caption": "High-resolution view of dwarf planet Ceres captured by Dawn's framing camera (PIA21906). Credit: NASA/JPL-Caltech/UCLA/MPS/DLR/IDA."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 will evaluate NASA 3D Resources Dawn model."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — Dawn (2007-043A)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-043A",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "Dawn — NASA Science Mission Overview",
+        "url": "https://science.nasa.gov/mission/dawn/",
+        "organization": "NASA Science"
+      },
+      {
+        "title": "Dawn Mission Archive — NASA JPL",
+        "url": "https://www.jpl.nasa.gov/missions/dawn/",
+        "organization": "NASA JPL"
+      }
+    ]
+  },
+  {
+    "id": "kepler",
+    "name": "Kepler Space Telescope",
+    "cosparId": "2009-011A",
+    "category": "deep-space",
+    "missionType": "Heliocentric Exoplanet Space Observatory",
+    "agency": "NASA (Ames Research Center / Ball Aerospace)",
+    "launchYear": 2009,
+    "launchDate": "2009-03-07T03:49:57Z",
+    "destination": "Earth-Trailing Heliocentric (Solar) Orbit",
+    "shortDescription": "Space telescope stationed in an Earth-trailing orbit around the Sun that proved planets outnumber stars in the Milky Way, confirming thousands of exoplanets across its prime and K2 missions.",
+    "quickOverview": "Rather than orbiting Earth—where our planet would constantly block its view—Kepler trailed quietly behind Earth in its own orbit around the Sun. For nine years, its 95-megapixel camera stared for tiny flickers in starlight caused by orbiting worlds, revealing that our galaxy holds more planets than stars before fuel depletion retired it in late 2018.",
+    "scientificSummary": "NSSDCA 2009-011A launched March 7, 2009 UTC into a 372.5-day Earth-trailing heliocentric orbit (not a planetary orbit). Built around a 0.95 m aperture Schmidt photometer with 42 CCDs (95 megapixels), Kepler monitored ~150,000 stars in Cygnus–Lyra for 4 years until losing two of four reaction wheels in 2013. Engineers then used solar photon pressure along the ecliptic plane for the K2 extended mission (2014–2018), discovering >2,700 confirmed exoplanets before thruster fuel ran dry on October 30, 2018.",
+    "missionObjectives": [
+      "Survey a representative slice of the Milky Way to determine how common Earth-sized and larger planets are in habitable zones.",
+      "Measure planetary radii, orbital periods, and multi-planet system architectures via transit photometry.",
+      "Conduct extended ecliptic astrophysics and exoplanet surveys during the K2 'Second Light' campaign."
+    ],
+    "launchDetails": {
+      "dateUtc": "2009-03-07T03:49:57Z",
+      "vehicle": "Delta II 7925-10L",
+      "site": "Cape Canaveral Air Force Station, SLC-17B, Florida",
+      "orbitType": "Earth-trailing heliocentric orbit (~372.5-day solar period)"
+    },
+    "spacecraftSpecifications": {
+      "launchMass": "1,052.4 kg (1,040.7 kg dry mass)",
+      "instrumentMass": "~478 kg photometer assembly",
+      "telescopeAperture": "0.95 m (37 in) effective aperture / 1.4 m primary mirror",
+      "detector": "42 CCD array (~95 megapixels across 115 square degrees field of view)",
+      "orbitClass": "Earth-trailing heliocentric solar orbit (never orbited a planet)"
+    },
+    "instruments": [
+      {
+        "name": "Kepler 95-Megapixel Transit Photometer",
+        "code": "2009-011A-01",
+        "purpose": "Wide-field Schmidt telescope detecting parts-per-million dips in stellar brightness as exoplanets transited across host stars.",
+        "status": "Decommissioned (Nov 2018)"
+      }
+    ],
+    "missionJourney": "Launched March 7, 2009 UTC into an Earth-trailing orbit around the Sun, Kepler monitored one patch of sky toward Cygnus–Lyra continuously until May 2013. After a second reaction wheel failed, engineers balanced the observatory against sunlight itself to run 19 K2 observing campaigns until fuel ran out in October 2018.",
+    "timeline": [
+      {
+        "date": "2009-03-07 03:49 UTC",
+        "title": "Launch into Heliocentric Orbit",
+        "description": "Kepler lifts off aboard a Delta II rocket into an Earth-trailing orbit around the Sun."
+      },
+      {
+        "date": "2009-05-12",
+        "title": "Prime Science Survey Begins",
+        "description": "Starts continuous photometric monitoring of ~150,000 stars in Cygnus and Lyra."
+      },
+      {
+        "date": "2013-05",
+        "title": "Second Reaction Wheel Fails",
+        "description": "Loss of a second pointing wheel ends ultra-stable prime-field staring—prompting an ingenious physics rescue."
+      },
+      {
+        "date": "2014-05",
+        "title": "K2 'Second Light' Mission Approved",
+        "description": "Uses solar radiation pressure as a virtual third wheel to balance pointing along the ecliptic plane."
+      },
+      {
+        "date": "2018-10-30",
+        "title": "Fuel Depleted & Retirement Announced",
+        "description": "After nine years and >530,000 observed stars, thruster fuel runs dry; NASA announces retirement."
+      },
+      {
+        "date": "2018-11-15",
+        "title": "Final Deactivation Commands Sent",
+        "description": "Engineers send final 'goodnight' commands disabling transmitters and fault protection in safe solar orbit."
+      }
+    ],
+    "discoveries": [
+      "Proved planets outnumber stars in the Milky Way galaxy and uncovered over 2,700 confirmed exoplanets (plus thousands of candidates still yielding discoveries in archival data).",
+      "Identified the most common planet sizes in the galaxy—super-Earths and sub-Neptunes absent from our own solar system.",
+      "Discovered Kepler-186f (first Earth-sized planet confirmed in a star's habitable zone) and circumbinary 'Tatooine' worlds."
+    ],
+    "missionEnd": {
+      "date": "2018-10-30 (Retirement); 2018-11-15 (Final deactivation)",
+      "summary": "Kepler exhausted its hydrazine propellant after 9.6 years; engineers placed it in a safe, deactivated configuration in its Earth-trailing solar orbit."
+    },
+    "currentStatus": {
+      "state": "concluded",
+      "label": "Decommissioned • Drifting in Earth-Trailing Heliocentric Orbit",
+      "explanation": "Kepler operates in an Earth-trailing orbit around the Sun—not a planetary orbit and not landed on any body. Deactivated in November 2018, it continues circling the Sun millions of kilometers behind Earth."
+    },
+    "location": {
+      "body": "Heliocentric Space (Earth-Trailing Solar Orbit)",
+      "region": "~1 AU solar orbit, trailing tens of millions of kilometers behind Earth",
+      "coordinates": {
+        "lat": null,
+        "lon": null,
+        "precision": "untracked / deactivated heliocentric orbit (no planetary surface coordinates)",
+        "frame": "Heliocentric ecliptic orbit"
+      },
+      "trajectoryNote": "Orbits the Sun every ~372.5 days, gradually drifting farther behind Earth with no close planetary return for decades."
+    },
+    "historicalSignificance": "Kepler transformed exoplanets from rare curiosities into an established cosmic census, revealing a galaxy teeming with diverse worlds.",
+    "story": "To spot a world the size of Earth crossing a distant star is like noticing a flea crawl across a car headlight miles away. When two steering wheels broke mid-mission, Kepler's engineers refused to quit—they balanced the telescope on the gentle push of sunlight itself, turning a crippled observatory into a second golden age of planet hunting.",
+    "images": [
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA11825/PIA11825~small.jpg",
+        "alt": "Artist illustration of the Kepler Space Telescope in heliocentric orbit",
+        "caption": "Artist concept of NASA's Kepler Space Telescope surveying stars along the Milky Way (PIA11825). Credit: NASA/Ames/JPL-Caltech."
+      },
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA11983/PIA11983~medium.jpg",
+        "alt": "Kepler Space Telescope 42-CCD field of view superimposed on Cygnus starfield",
+        "caption": "Kepler's 115-square-degree photometer field of view in Cygnus and Lyra (PIA11983). Credit: NASA/Ames/JPL-Caltech."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 will evaluate NASA 3D Resources Kepler model."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — Kepler (2009-011A)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2009-011A",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "Kepler / K2 — NASA Science Mission Overview",
+        "url": "https://science.nasa.gov/mission/kepler/",
+        "organization": "NASA Science"
+      }
+    ]
+  }
+]

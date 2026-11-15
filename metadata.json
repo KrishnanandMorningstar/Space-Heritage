@@ -1,0 +1,6 @@
+{
+  "name": "SPACE HERITAGE",
+  "description": "Every Mission Leaves a Story — An interactive digital space museum preserving the history, engineering, and present status of Moon, Mars, and deep-space missions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,1027 @@
+[
+  {
+    "id": "viking-1",
+    "name": "Viking 1 (Lander & Orbiter)",
+    "cosparId": "1975-075C (Lander) / 1975-075A (Orbiter)",
+    "category": "mars",
+    "missionType": "Robotic Stationary Lander & Orbiter",
+    "agency": "NASA (Langley / JPL / Martin Marietta)",
+    "launchYear": 1975,
+    "launchDate": "1975-08-20T21:22:00Z",
+    "destination": "Mars — Chryse Planitia (Thomas A. Mutch Memorial Station)",
+    "shortDescription": "Humanity's first fully successful Mars lander, transmitting crystal-clear surface panoramas, Martian weather data, and soil biology tests for over six years until a 1982 command error.",
+    "quickOverview": "On July 20, 1976—seven years to the day after Apollo 11 landed on the Moon—Viking 1 touched down safely on the rocky red plains of Chryse Planitia. Powered by nuclear batteries instead of sunlight, Viking 1 outlasted its 90-day mission for more than six Earth years, recording seasonal Martian weather and conducting the first automated search for microbial life in Martian soil.",
+    "scientificSummary": "Launched aboard a Titan IIIE/Centaur on August 20, 1975, the 3,527 kg Viking 1 stack entered Mars orbit on June 19, 1976 before releasing the 572 kg dry-mass Lander (NSSDCA 1975-075C). Using a Viking Aeroshell, parachute, and three throttled hydrazine terminal engines, it landed at Chryse Planitia on July 20, 1976. Powered by two SNAP-19 Pu-238 RTGs, the lander operated for 2,245 Martian sols until an uplinked software patch on November 11, 1982 inadvertently overwrote antenna pointing tables.",
+    "missionObjectives": [
+      "Achieve the first sustained soft landing on Mars and transmit high-resolution surface images.",
+      "Perform automated soil biology, gas-exchange, and organic chemistry experiments.",
+      "Measure atmospheric composition, surface pressure, wind, temperature, and Martian seismicity.",
+      "Map Mars globally from the paired Viking 1 Orbiter to select landing sites and study geology."
+    ],
+    "launchDetails": {
+      "dateUtc": "1975-08-20T21:22:00Z",
+      "vehicle": "Titan IIIE / Centaur D-1T",
+      "site": "Cape Canaveral Air Force Station, LC-41, Florida",
+      "landingDateUtc": "1976-07-20T11:53:06Z"
+    },
+    "spacecraftSpecifications": {
+      "landerDryMass": "572 kg (3,527 kg combined Orbiter + Lander launch mass)",
+      "power": "Two SNAP-19 Plutonium-238 RTGs (~70 W total) + NiCd batteries",
+      "plannedLifetime": "90 sols",
+      "actualOperation": "2,245 Martian sols (~6.3 Earth years on surface)",
+      "memorialName": "Thomas A. Mutch Memorial Station"
+    },
+    "instruments": [
+      {
+        "name": "Dual Facsimile Cameras",
+        "code": "Imaging System",
+        "purpose": "Scanned 360-degree black-and-white and color panoramas of Chryse Planitia across six years.",
+        "status": "Non-operational (with lander)"
+      },
+      {
+        "name": "Biology Instrument & Gas Chromatograph Mass Spectrometer (GCMS)",
+        "code": "Life-Detection & Chemistry",
+        "purpose": "Tested Martian soil for metabolic gases and organic molecules.",
+        "status": "Non-operational"
+      },
+      {
+        "name": "X-Ray Fluorescence Spectrometer (XRFS) & Meteorology Package",
+        "code": "Elemental & Weather Suite",
+        "purpose": "Measured major rock/soil elements and daily Martian pressure, wind, and temperature cycles.",
+        "status": "Non-operational"
+      }
+    ],
+    "missionJourney": "After a 10-month interplanetary cruise, Viking 1 spent a month scouting safer terrain from orbit before separating on July 20, 1976. Following its 1976 touchdown, the lander operated long after the Viking 1 Orbiter ran out of attitude-control gas in August 1980, becoming a solo automated weather station.",
+    "timeline": [
+      {
+        "date": "1975-08-20 21:22 UTC",
+        "title": "Titan IIIE/Centaur Launch",
+        "description": "Viking 1 launches from Cape Canaveral LC-41 toward Mars."
+      },
+      {
+        "date": "1976-06-19",
+        "title": "Mars Orbit Insertion",
+        "description": "Orbiter and attached lander enter Mars orbit to photograph and certify landing sites."
+      },
+      {
+        "date": "1976-07-20 11:53 UTC",
+        "title": "First Successful U.S. Mars Soft Landing",
+        "description": "Viking 1 Lander touches down in Chryse Planitia (22.27° N, 312.05° E) and transmits the first clear Mars surface photograph minutes later."
+      },
+      {
+        "date": "1980-08-17",
+        "title": "Viking 1 Orbiter Decommissioned",
+        "description": "After 1,485 orbits mapping Mars, the orbiter depletes attitude propellant and shuts down."
+      },
+      {
+        "date": "1982-11-11",
+        "title": "Final Communication Received",
+        "description": "A mistaken memory-update command overwrites antenna-pointing data, ending contact after 2,245 sols; recovery attempts conclude in May 1983."
+      }
+    ],
+    "discoveries": [
+      "Delivered the first clear, sustained surface panoramas of Mars, revealing wind-sculpted dust, iron-rich basaltic rocks, and butterscotch skies.",
+      "Measured Mars's CO2-dominated atmosphere (~95%) plus nitrogen and argon isotopes, confirming atmospheric loss over planetary history.",
+      "Found reactive oxidizing surface chemistry in Martian soils while failing to detect native organic carbon above instrument thresholds (sparking decades of astrobiology research)."
+    ],
+    "missionEnd": {
+      "date": "1982-11-11 (Last contact); 1983-05-21 (Recovery ended)",
+      "summary": "An erroneous memory command sent from Earth inadvertently overwrote software pointing the high-gain dish antenna away from Earth, severing communications despite working nuclear power."
+    },
+    "currentStatus": {
+      "state": "concluded",
+      "label": "Non-Operational • Lander Intact in Chryse Planitia",
+      "explanation": "Viking 1 Lander sits permanently silent in Chryse Planitia (imaged from orbit by Mars Reconnaissance Orbiter HiRISE). The Viking 1 Orbiter remains in a high Martian parking orbit designed to prevent impact until at least 2019+."
+    },
+    "location": {
+      "body": "Mars",
+      "region": "Chryse Planitia (Thomas A. Mutch Memorial Station)",
+      "coordinates": {
+        "lat": 22.27,
+        "lon": 312.05,
+        "precision": "confirmed (22.27° N, 312.05° E planetocentric; imaged by HiRISE)",
+        "frame": "Areocentric (Mars)"
+      },
+      "trajectoryNote": "Stationary lander with no mobility wheels; orbiter remains in Mars orbit."
+    },
+    "historicalSignificance": "Viking 1 proved long-duration robotic surface exploration on Mars was possible and shaped every Mars astrobiology and geology mission since 1976.",
+    "story": "Seven years to the day after Apollo 11 touched the Moon, Viking 1 settled onto Chryse Planitia and beamed back humanity's first sharp portrait of another planet's ground. For more than six years, its nuclear battery kept ticking through Martian winters and global dust storms—until a single mistaken software command accidentally turned its radio ear away from Earth.",
+    "images": [
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA00563/PIA00563~orig.jpg",
+        "alt": "First color photograph of the Martian surface taken by Viking 1 Lander",
+        "caption": "Viking 1 Lander's historic first color surface photograph of Chryse Planitia taken on July 21, 1976 (PIA00563). Credit: NASA/JPL."
+      },
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA09703/PIA09703~orig.jpg",
+        "alt": "Mars Reconnaissance Orbiter HiRISE orbital image resolving Viking 1 Lander on Mars",
+        "caption": "Viking 1 Lander resolved from Mars orbit by MRO's HiRISE camera (PIA09703). Credit: NASA/JPL/University of Arizona."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 will evaluate schematic Viking Lander geometry."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — Viking 1 Lander (1975-075C)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "Viking 1 — NASA Science Mission Overview",
+        "url": "https://science.nasa.gov/mission/viking-1/",
+        "organization": "NASA Science"
+      },
+      {
+        "title": "Viking 1 & 2 — JPL Mission Archive",
+        "url": "https://www.jpl.nasa.gov/missions/viking-1/",
+        "organization": "NASA JPL"
+      }
+    ]
+  },
+  {
+    "id": "mars-pathfinder-sojourner",
+    "name": "Mars Pathfinder & Sojourner Rover",
+    "cosparId": "1996-068A",
+    "category": "mars",
+    "missionType": "Stationary Lander & Micro-Rover",
+    "agency": "NASA (JPL)",
+    "launchYear": 1996,
+    "launchDate": "1996-12-04T06:58:07Z",
+    "destination": "Mars — Ares Vallis (Carl Sagan Memorial Station)",
+    "shortDescription": "Low-cost Discovery mission that pioneered airbag landings on Mars on July 4, 1997 and deployed Sojourner—the first robotic wheeled rover to explore another planet.",
+    "quickOverview": "After twenty years without a U.S. Mars landing, Mars Pathfinder bounced onto an ancient Martian floodplain on July 4, 1997 cushioned inside giant airbags. When its solar petals opened, a microwave-oven-sized six-wheeled rover named Sojourner rolled down a ramp—driving just over 100 meters around rocks nicknamed Barnacle Bill and Yogi while captivating millions on the early internet.",
+    "scientificSummary": "NSSDCA 1996-068A paired the 264 kg stationary Carl Sagan Memorial Station lander with the 10.5 kg six-wheeled Sojourner rover. Landing directly from hyperbola via aeroshell, parachute, solid retrorockets, and airbags at Ares Vallis, Pathfinder returned 16,500+ lander images, 550 rover images, 15+ APXS chemical analyses of rocks and soil, and 8.5 million meteorological measurements across 83 Martian sols.",
+    "missionObjectives": [
+      "Demonstrate a 'faster, better, cheaper' Mars landing architecture using inflatable airbags without an orbiter.",
+      "Deploy and operate Sojourner, humanity's first wheeled robotic rover on another planet.",
+      "Analyze ancient flood-deposited rocks and Martian atmospheric dust/weather in Ares Vallis."
+    ],
+    "launchDetails": {
+      "dateUtc": "1996-12-04T06:58:07Z",
+      "vehicle": "Delta II 7925",
+      "site": "Cape Canaveral Air Force Station, LC-17B, Florida",
+      "landingDateUtc": "1997-07-04T16:56:55Z"
+    },
+    "spacecraftSpecifications": {
+      "landerMass": "264 kg (landed mass)",
+      "sojournerRoverMass": "10.5 kg (65 cm long × 48 cm wide × 30 cm tall)",
+      "power": "Gallium arsenide solar panels (lander & rover) + primary/secondary batteries",
+      "distanceDriven": "Just over 100 meters (~330 ft) around the lander",
+      "activeDuration": "83 Martian sols (3x planned 30-day lander / 7-day rover life)"
+    },
+    "instruments": [
+      {
+        "name": "Imager for Mars Pathfinder (IMP)",
+        "code": "Lander Mast Stereo Camera",
+        "purpose": "Captured 16,500+ stereo color panoramas, sky dust profiles, and magnetic dust targets.",
+        "status": "Non-operational"
+      },
+      {
+        "name": "Alpha Proton X-Ray Spectrometer (APXS)",
+        "code": "Sojourner Rover",
+        "purpose": "Pressed against Martian rocks and soil to identify elemental composition.",
+        "status": "Non-operational (with Sojourner)"
+      },
+      {
+        "name": "Atmospheric Structure & Meteorology Package (ASI/MET)",
+        "code": "Entry & Surface Weather",
+        "purpose": "Recorded entry deceleration profile and 8.5 million pressure, wind, and temperature readings.",
+        "status": "Non-operational"
+      }
+    ],
+    "missionJourney": "Launched December 4, 1996, Mars Pathfinder flew straight into the Martian atmosphere on July 4, 1997, bouncing at least 15 times inside giant airbags before coming to rest upright in Ares Vallis. Sojourner rolled down the rear ramp onto Martian soil on July 6 (Sol 2) and continued circling the station until communications ceased on September 27, 1997.",
+    "timeline": [
+      {
+        "date": "1996-12-04 06:58 UTC",
+        "title": "Delta II Launch",
+        "description": "Mars Pathfinder launches from Cape Canaveral LC-17B."
+      },
+      {
+        "date": "1997-07-04 16:56 UTC",
+        "title": "Airbag Landing in Ares Vallis",
+        "description": "Bounces across the ancient outflow floodplain and settles upright; lander named Carl Sagan Memorial Station."
+      },
+      {
+        "date": "1997-07-06",
+        "title": "Sojourner Rolls onto Mars",
+        "description": "The 10.5 kg rover drives down the deployment ramp, becoming the first mobile wheeled explorer on Mars."
+      },
+      {
+        "date": "1997-07 / 09",
+        "title": "Rock Analyses & 83 Sols of Data",
+        "description": "Sojourner analyzes silica-rich rock 'Barnacle Bill' and 'Yogi' while traversing >100 meters."
+      },
+      {
+        "date": "1997-09-27 10:23 UTC",
+        "title": "Last Transmission Received",
+        "description": "Final data transmission received; battery degradation during cold Martian nights ends communications, with official closeout in March 1998."
+      }
+    ],
+    "discoveries": [
+      "Found rounded pebbles, stacked rocks, and conglomerate-like textures supporting catastrophic ancient flooding in Ares Vallis.",
+      "Discovered silica-rich volcanic rocks ('Barnacle Bill') and fine airborne dust rich in magnetic iron oxide.",
+      "Validated the rocker-bogie six-wheel suspension and airbag landing system used later for Spirit and Opportunity."
+    ],
+    "missionEnd": {
+      "date": "1997-09-27 10:23 UTC (Last contact); 1998-03-10 (Official termination)",
+      "summary": "Following battery depletion during cold Martian nights, contact was lost on September 27, 1997; after months of listening, NASA ended operations in March 1998."
+    },
+    "currentStatus": {
+      "state": "concluded",
+      "label": "Non-Operational • Lander & Sojourner Parked in Ares Vallis",
+      "explanation": "Both the Carl Sagan Memorial Station lander and the tiny Sojourner rover remain intact and silent on the Ares Vallis plain (confirmed from orbit by MRO)."
+    },
+    "location": {
+      "body": "Mars",
+      "region": "Ares Vallis (Carl Sagan Memorial Station)",
+      "coordinates": {
+        "lat": 19.33,
+        "lon": 326.45,
+        "precision": "confirmed (19.33° N, 33.55° W; tracking fits 19.09°–19.33° N)",
+        "frame": "Areocentric (Mars)"
+      },
+      "trajectoryNote": "Sojourner drove just over 100 meters in loops within sight of the stationary lander."
+    },
+    "historicalSignificance": "Mars Pathfinder proved low-cost Mars exploration could succeed brilliantly and launched the lineage of NASA's planetary rovers.",
+    "story": "Instead of lowering slowly on rocket legs, Mars Pathfinder wrapped itself in giant airbags and bounced across an ancient Martian flood plain on July 4, 1997. Out rolled Sojourner—smaller than a microwave oven, weighing just 10.5 kilograms—yet every Mars rover since owes its six-wheeled DNA to that little pioneer.",
+    "images": [
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA00766/PIA00766~orig.jpg",
+        "alt": "Sojourner rover inspecting the Martian boulder Yogi photographed by Pathfinder lander",
+        "caption": "Sojourner rover approaches the boulder 'Yogi' in Ares Vallis as viewed by Carl Sagan Memorial Station (PIA00766). Credit: NASA/JPL."
+      },
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA01122/PIA01122~small.jpg",
+        "alt": "Sojourner rover operating near boulders in Ares Vallis on Mars",
+        "caption": "Sojourner rover examining Martian rocks and soil near the Mars Pathfinder lander (PIA01122). Credit: NASA/JPL."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 will evaluate Sojourner & Pathfinder geometry."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — Mars Pathfinder / Sojourner (1996-068A)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "Mars Pathfinder — NASA Science Mission Overview",
+        "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+        "organization": "NASA Science"
+      },
+      {
+        "title": "Mars Pathfinder & Sojourner — JPL Archive",
+        "url": "https://www.jpl.nasa.gov/missions/mars-pathfinder-sojourner-rover/",
+        "organization": "NASA JPL"
+      }
+    ]
+  },
+  {
+    "id": "spirit",
+    "name": "Spirit (MER-A)",
+    "cosparId": "2003-027A",
+    "category": "mars",
+    "missionType": "Robotic Rover",
+    "agency": "NASA (JPL)",
+    "launchYear": 2003,
+    "launchDate": "2003-06-10T17:58:47Z",
+    "destination": "Mars — Gusev Crater (Columbia Memorial Station)",
+    "shortDescription": "Twin to Opportunity that landed in Gusev Crater in 2004, climbed Husband Hill, and uncovered ancient hydrothermal silica deposits before becoming trapped in soft sand at Troy.",
+    "quickOverview": "Spirit landed inside Gusev Crater in January 2004—a giant basin scientists hoped held an ancient lakebed. Instead, Spirit found volcanic plains, so engineers drove it kilometers uphill into the Columbia Hills. There, even with a broken front wheel dragging behind it, Spirit scraped open bright, nearly pure silica soil—proof of ancient Martian hot springs—before soft sand near 'Troy' trapped it for its final winter.",
+    "scientificSummary": "NSSDCA 2003-027A, the 185 kg MER-A rover, carried the Athena payload across its Pancam mast and robotic arm. Operating for 2,208+ active sols (far beyond its 90-sol warranty) and driving 7.73 km, Spirit identified hydrated minerals, goethite, volcanic pyroclastic deposits at Home Plate, and hydrothermal silica around Husband Hill before becoming embedded in soft sulfate-rich regolith in 2009 and falling silent on March 22, 2010.",
+    "missionObjectives": [
+      "Investigate Gusev Crater geology and search for rocks formed or altered by liquid water.",
+      "Characterize Martian dust, wind-cleaning events, and iron mineralogy across crater plains and hills.",
+      "Assess ancient habitability in crater-floor and hydrothermal environments."
+    ],
+    "launchDetails": {
+      "dateUtc": "2003-06-10T17:58:47Z",
+      "vehicle": "Delta II 7925-9.5",
+      "site": "Cape Canaveral Air Force Station, SLC-17A, Florida",
+      "landingDateUtc": "2004-01-04T04:35:00Z"
+    },
+    "spacecraftSpecifications": {
+      "spacecraftCode": "MER-A / MER-2",
+      "roverDryMass": "185 kg (~1,062 kg launch mass with cruise stage & lander)",
+      "power": "Solar arrays + two rechargeable Li-ion batteries",
+      "plannedLifetime": "90 sols",
+      "actualOperation": "2,210 sols to last contact (~6 Earth years)",
+      "distanceDriven": "7.73 km (4.8 miles)"
+    },
+    "instruments": [
+      {
+        "name": "Pancam & Mini-TES",
+        "code": "Panoramic Mast Assembly",
+        "purpose": "Stereo color geology imaging and thermal infrared mineral surveying.",
+        "status": "Non-operational"
+      },
+      {
+        "name": "Mössbauer Spectrometer, APXS, Microscopic Imager & RAT",
+        "code": "Robotic Arm",
+        "purpose": "Identified goethite, ferric sulfates, and pure amorphous silica exposed by Spirit's dragging wheel.",
+        "status": "Non-operational"
+      }
+    ],
+    "missionJourney": "Landing in Gusev Crater on January 4, 2004, Spirit traversed kilometers toward the Columbia Hills, summited Husband Hill in 2005, and explored Home Plate even after its right-front wheel failed in 2006. Stuck in soft sand at 'Troy' in 2009, Spirit transitioned into a stationary science station until Martian winter starved its tilted solar panels in March 2010.",
+    "timeline": [
+      {
+        "date": "2003-06-10 17:58 UTC",
+        "title": "Launch from Cape Canaveral",
+        "description": "Spirit lifts off aboard a Delta II rocket three weeks ahead of twin rover Opportunity."
+      },
+      {
+        "date": "2004-01-04 04:35 UTC",
+        "title": "Landing in Gusev Crater",
+        "description": "Bounces inside airbags onto Gusev Crater (14.57° S, 175.47° E)."
+      },
+      {
+        "date": "2005-08 / 2005-10",
+        "title": "Summit of Husband Hill",
+        "description": "Becomes the first rover to climb a mountain on another planet, finding water-altered rocks in Columbia Hills."
+      },
+      {
+        "date": "2007-05",
+        "title": "Hydrothermal Silica Discovery",
+        "description": "Spirit's immobile wheel churns up ~90% pure silica soil near Home Plate, pointing to ancient hot springs or steam vents."
+      },
+      {
+        "date": "2009-05 / 2010-03-22",
+        "title": "Sand Trap at Troy & Final Contact",
+        "description": "Becomes embedded in soft sulfate sand; sends its last communication on March 22, 2010 (Sol 2210) entering Martian winter."
+      },
+      {
+        "date": "2011-05-25",
+        "title": "Recovery Attempts Conclude",
+        "description": "After over 1,300 listening commands following Martian spring, NASA concludes recovery efforts."
+      }
+    ],
+    "discoveries": [
+      "Uncovered ~90% pure silica deposits created by hot-spring water or acidic volcanic steam—key evidence of ancient habitable energy and water.",
+      "Identified goethite, a mineral forming exclusively in the presence of water, in Clovis class rocks in Columbia Hills.",
+      "Mapped explosive volcanic bedrock at Home Plate and observed dust-devil cleaning cycles extending solar rover life."
+    ],
+    "missionEnd": {
+      "date": "2010-03-22 (Last contact); 2011-05-25 (Recovery ended)",
+      "summary": "Unable to tilt toward the winter Sun while trapped in soft sand at Troy, Spirit entered a deep-freeze low-power hibernation and never re-established radio contact."
+    },
+    "currentStatus": {
+      "state": "concluded",
+      "label": "Non-Operational • Stationary at Troy in Gusev Crater",
+      "explanation": "Spirit remains physically intact and embedded in soft soil near the western edge of Home Plate in Gusev Crater."
+    },
+    "location": {
+      "body": "Mars",
+      "region": "Gusev Crater — Columbia Hills ('Troy' near Home Plate)",
+      "coordinates": {
+        "lat": -14.5684,
+        "lon": 175.4726,
+        "precision": "confirmed (14.57° S, 175.47° E landing site; 7.73 km driven SE to Home Plate)",
+        "frame": "Areocentric (Mars)"
+      },
+      "trajectoryNote": "Drove 7.73 km across Gusev plains and up Husband Hill before stopping at Troy."
+    },
+    "historicalSignificance": "Spirit proved robotic geologists could overcome mechanical failures, climb mountains, and uncover ancient hydrothermal habitable environments.",
+    "story": "Spirit had to earn every discovery the hard way. Landing on volcanic plains instead of a dry lakebed, it drove kilometers to climb Husband Hill—and when its front wheel seized, it dragged that dead wheel like a plow. Ironically, that broken wheel scraped open bright white silica from ancient hot springs, turning a mechanical setback into one of Mars exploration's greatest finds.",
+    "images": [
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA04413/PIA04413~medium.jpg",
+        "alt": "Artist concept of Mars Exploration Rover Spirit on Mars",
+        "caption": "Mars Exploration Rover Spirit (MER-A) artist concept (PIA04413). Credit: NASA/JPL."
+      },
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA17760/PIA17760~medium.jpg",
+        "alt": "Spirit panorama view looking southward from Husband Hill in Gusev Crater",
+        "caption": "Spirit panoramic view looking southward from Husband Hill in Gusev Crater (PIA17760). Credit: NASA/JPL-Caltech/Cornell."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 will share Mars Exploration Rover geometry with Opportunity."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — Spirit / MER-A (2003-027A)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-027A",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "Spirit — NASA Science Mission Overview",
+        "url": "https://science.nasa.gov/mission/mer-spirit/",
+        "organization": "NASA Science"
+      },
+      {
+        "title": "Mars Rover Spirit — JPL Mission Archive",
+        "url": "https://www.jpl.nasa.gov/missions/mars-exploration-rover-spirit-mer/",
+        "organization": "NASA JPL"
+      }
+    ]
+  },
+  {
+    "id": "opportunity",
+    "name": "Opportunity (MER-B)",
+    "cosparId": "2003-032A",
+    "category": "mars",
+    "missionType": "Robotic Rover",
+    "agency": "NASA (JPL)",
+    "launchYear": 2003,
+    "launchDate": "2003-07-08T03:18:00Z",
+    "destination": "Mars — Meridiani Planum",
+    "shortDescription": "Solar-powered Mars Exploration Rover designed for 90 sols that explored Meridiani Planum for nearly 15 years, proving ancient liquid water soaked the Martian surface.",
+    "quickOverview": "Opportunity (MER-B) landed in Eagle Crater in January 2004, three weeks after its twin Spirit touched down on the opposite side of Mars. Planned for a three-month mission, Opportunity operated for 5,111 Martian sols and drove 45.16 kilometers before a severe planet-wide dust storm blocked sunlight to its solar arrays in June 2018.",
+    "scientificSummary": "Equipped with the Athena science payload across its Pancam mast and robotic arm, Opportunity combined remote infrared mineral mapping with contact spectroscopy (Mössbauer, APXS) and rock abrasion. Its discovery of cross-bedded sedimentary bedrock, iron-oxide hematite concretions ('blueberries'), jarosite, and gypsum veins along Endeavour Crater established multi-era aqueous activity.",
+    "missionObjectives": [
+      "Search for and characterize rocks and soils holding clues to past liquid water activity on Mars.",
+      "Determine mineralogical composition and geological processes shaping Meridiani Planum.",
+      "Provide ground-truth surface calibration for orbital spectroscopy instruments.",
+      "Assess whether ancient Martian environments were potentially habitable for microbial life."
+    ],
+    "launchDetails": {
+      "dateUtc": "2003-07-08T03:18:00Z",
+      "vehicle": "Delta II 7925H-9.5",
+      "site": "Cape Canaveral Air Force Station, SLC-17B, Florida",
+      "landingDateUtc": "2004-01-25T05:05:00Z"
+    },
+    "spacecraftSpecifications": {
+      "spacecraftCode": "MER-B / MER-1",
+      "roverDryMass": "185 kg (1,063 kg total launch mass)",
+      "power": "Deployable solar arrays + rechargeable Li-ion batteries",
+      "plannedLifetime": "90 sols (~92.5 Earth days)",
+      "actualLifetime": "5,111 active sols",
+      "distanceDriven": "45.16 km (28.06 miles)"
+    },
+    "instruments": [
+      {
+        "name": "Panoramic Camera (Pancam) & Mini-TES",
+        "code": "Mast Assembly",
+        "purpose": "Dual stereo color cameras and mid-infrared spectrometer identifying rock minerals.",
+        "status": "Non-operational (with rover)"
+      },
+      {
+        "name": "Mössbauer Spectrometer, APXS, MI & RAT",
+        "code": "Robotic Arm",
+        "purpose": "Identified jarosite, hematite spherules, and gypsum veins and ground weathered rock rinds.",
+        "status": "Non-operational"
+      }
+    ],
+    "missionJourney": "Using an aeroshell, parachute, retrorockets, and airbags, Opportunity rolled directly into 22-meter-wide Eagle Crater. Over 14+ years, it explored Endurance, Victoria, and the 22-km Endeavour Crater rim before halting in Perseverance Valley.",
+    "timeline": [
+      {
+        "date": "2003-07-08 03:18 UTC",
+        "title": "Launch from Cape Canaveral",
+        "description": "Opportunity launches aboard a Delta II Heavy rocket toward Mars."
+      },
+      {
+        "date": "2004-01-25 05:05 UTC",
+        "title": "Airbag Landing in Eagle Crater",
+        "description": "Touches down in Meridiani Planum (1.946° S, 354.473° E)."
+      },
+      {
+        "date": "2004-03 / 2004-04",
+        "title": "Evidence of Ancient Water Discovered",
+        "description": "Identifies hematite spherules ('blueberries'), jarosite sulfates, and cross-bedded sedimentary rock."
+      },
+      {
+        "date": "2011-08",
+        "title": "Arrival at Endeavour Crater",
+        "description": "Uncovers clay minerals and gypsum veins formed in neutral-pH water."
+      },
+      {
+        "date": "2015-03-24",
+        "title": "Passes Off-World Marathon Distance",
+        "description": "Surpasses 42.195 km driven, reaching 45.16 km total (a record held until Perseverance surpassed it on Oct 11, 2026)."
+      },
+      {
+        "date": "2018-06-10",
+        "title": "Final Communication Received",
+        "description": "A severe Mars-wide dust storm darkens skies over Perseverance Valley, starving Opportunity's solar arrays."
+      },
+      {
+        "date": "2019-02-13",
+        "title": "NASA Declares Mission Complete",
+        "description": "After over 1,000 recovery commands without response, JPL officially concludes the Opportunity mission."
+      }
+    ],
+    "discoveries": [
+      "First rover to identify and characterize sedimentary rocks on another planet.",
+      "Discovered hematite concretions ('blueberries') and jarosite proving ancient acidic groundwater and surface seas existed in Meridiani Planum.",
+      "Detected gypsum veins and clay minerals at Endeavour Crater formed under neutral-pH water conditions."
+    ],
+    "missionEnd": {
+      "date": "2019-02-13 (Last communication: 2018-06-10)",
+      "summary": "A 2018 global dust storm overwhelmed Opportunity's solar power budget; after eight months of recovery attempts, NASA ended the mission on February 13, 2019."
+    },
+    "currentStatus": {
+      "state": "concluded",
+      "label": "Mission Concluded • Rover Intact & Non-Operational",
+      "explanation": "Opportunity sits permanently powered down in Perseverance Valley along the western rim of Endeavour Crater in Meridiani Planum."
+    },
+    "location": {
+      "body": "Mars",
+      "region": "Meridiani Planum (Perseverance Valley / Endeavour Crater rim)",
+      "coordinates": {
+        "lat": -1.946,
+        "lon": 354.473,
+        "precision": "confirmed (Eagle Crater landing site; final site at Endeavour Crater western rim)",
+        "frame": "Areocentric (Mars)"
+      },
+      "trajectoryNote": "Opportunity drove 45.16 km southward from Eagle Crater to Perseverance Valley."
+    },
+    "historicalSignificance": "Opportunity transformed our understanding of Mars from a frozen desert to a world with a dynamic watery past.",
+    "story": "Designed for a 90-day sprint across flat Martian plains, Opportunity turned a lucky crater landing into a 15-year odyssey—leaving behind 45 kilometers of tracks and irrefutable proof that Mars once flowed with liquid water.",
+    "images": [
+      {
+        "url": "https://d2pn8kiwq2w21t.cloudfront.net/images/missionswebmer_cMTGwaG.height-1024.jpg",
+        "alt": "Mars Exploration Rover Opportunity visualization on Mars",
+        "caption": "Mars Exploration Rover Opportunity (MER-B) mission visual. Credit: NASA/JPL-Caltech."
+      },
+      {
+        "url": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA05182.jpg",
+        "alt": "Empty Opportunity lander imaged by Opportunity after rolling onto Martian soil",
+        "caption": "Opportunity looks back at its empty petal lander inside Eagle Crater on January 31, 2004 (PIA05182). Credit: NASA/JPL."
+      },
+      {
+        "url": "https://science.nasa.gov/wp-content/uploads/2024/03/mer-bythenumbers-infographic-feb2019.jpg",
+        "alt": "Spirit and Opportunity Mars Exploration Rovers by the numbers infographic",
+        "caption": "NASA/JPL summary infographic commemorating Spirit and Opportunity. Credit: NASA/JPL-Caltech."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 3D Experience will integrate an official NASA Mars Exploration Rover model."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — Opportunity / MER-B (2003-032A)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "Opportunity — NASA Science Mission Overview",
+        "url": "https://science.nasa.gov/mission/mer-opportunity/",
+        "organization": "NASA Science"
+      },
+      {
+        "title": "Perseverance Sets Off-World Record for Total Distance Driven (Oct 2026)",
+        "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+        "organization": "NASA Science"
+      }
+    ]
+  },
+  {
+    "id": "phoenix",
+    "name": "Phoenix Mars Lander",
+    "cosparId": "2007-034A",
+    "category": "mars",
+    "missionType": "Robotic Polar Stationary Lander",
+    "agency": "NASA (JPL / University of Arizona / Lockheed Martin)",
+    "launchYear": 2007,
+    "launchDate": "2007-08-04T09:26:00Z",
+    "destination": "Mars — Vastitas Borealis (Arctic Plains)",
+    "shortDescription": "Arctic Mars lander that touched down in northern polar permafrost in May 2008, dug up and confirmed subsurface water ice, detected perchlorates, and observed Martian snowfall.",
+    "quickOverview": "While Mars rovers hunted ancient water clues near the equator, Phoenix flew straight to Mars's northern arctic plains—the 'Green Valley' of Vastitas Borealis. Over five sunlit polar months in 2008, its robotic scoop chipped into hard frozen soil right beneath the lander and exposed bright white chunks of pure water ice that vanished into vapor in days.",
+    "scientificSummary": "Managed by University of Arizona and JPL (NSSDCA 2007-034A), the 350 kg solar-powered lander used propulsive thrusters rather than airbags to land at 68.22° N on May 25, 2008. Operating its 2.35-m Robotic Arm, TEGA oven/mass spectrometer, MECA wet-chemistry lab, and LIDAR meteorology station across 152 Martian sols, Phoenix verified water ice sublimation, mildly alkaline soil (~pH 7.7), calcium carbonate, perchlorates, and falling ice crystals before winter frost crushed/shaded its solar panels after November 2, 2008.",
+    "missionObjectives": [
+      "Directly sample and verify subsurface water ice detected from orbit in Mars's northern arctic.",
+      "Analyze soil chemistry, pH, salts, and potential nutrients for past polar habitability.",
+      "Track arctic weather, polar clouds, frost formation, and water-cycle exchange with the atmosphere."
+    ],
+    "launchDetails": {
+      "dateUtc": "2007-08-04T09:26:00Z",
+      "vehicle": "Delta II 7925",
+      "site": "Cape Canaveral Air Force Station, SLC-17A, Florida",
+      "landingDateUtc": "2008-05-25T23:53:44Z"
+    },
+    "spacecraftSpecifications": {
+      "launchMass": "~670 kg",
+      "landingMass": "~350 kg",
+      "power": "Two octagonal deployable GaAs solar arrays + Li-ion batteries",
+      "plannedLifetime": "90 sols",
+      "actualOperation": "152 active sols in polar summer/autumn"
+    },
+    "instruments": [
+      {
+        "name": "Robotic Arm (RA) & Robotic Arm Camera (RAC)",
+        "code": "2.35 m Digging Arm",
+        "purpose": "Excavated trenches down to hard permafrost ice table and delivered samples to analytical labs.",
+        "status": "Non-operational"
+      },
+      {
+        "name": "Thermal and Evolved Gas Analyzer (TEGA)",
+        "code": "8 Miniature Ovens + Mass Spectrometer",
+        "purpose": "Heated soil samples up to 1,000°C to detect water vapor, carbonates, and volatiles.",
+        "status": "Non-operational"
+      },
+      {
+        "name": "MECA Wet Chemistry, Microscopes & MET LIDAR Station",
+        "code": "MECA / SSI / MET",
+        "purpose": "Measured soil pH, soluble salts (perchlorates), dust grain shapes, and atmospheric ice-crystal clouds.",
+        "status": "Non-operational"
+      }
+    ],
+    "missionJourney": "Launched August 4, 2007, Phoenix performed a powered descent onto Vastitas Borealis on May 25, 2008—observed mid-parachute by Mars Reconnaissance Orbiter. It operated continuously through polar daylight until autumn sunlight faded and carbon-dioxide frost ended transmissions on November 2, 2008.",
+    "timeline": [
+      {
+        "date": "2007-08-04 09:26 UTC",
+        "title": "Launch to Martian Arctic",
+        "description": "Phoenix launches from Cape Canaveral SLC-17A aboard a Delta II rocket."
+      },
+      {
+        "date": "2008-05-25 23:53 UTC",
+        "title": "Powered Landing at Vastitas Borealis",
+        "description": "Touches down upright at 68.2188° N, 234.2508° E (125.7492° W)."
+      },
+      {
+        "date": "2008-06-15 / 06-19",
+        "title": "Direct Confirmation of Martian Water Ice",
+        "description": "Dice-sized bright white chunks uncovered in 'Dodo-Goldilocks' trench vaporize over four sols, proving they are water ice rather than salt."
+      },
+      {
+        "date": "2008-08 / 2008-09",
+        "title": "Perchlorates & Snowfall Observed",
+        "description": "MECA identifies perchlorate salts and alkaline soil; LIDAR detects snow crystals falling from high clouds."
+      },
+      {
+        "date": "2008-11-02",
+        "title": "Final Signal Received",
+        "description": "Fading autumn Sun and dust storm deplete batteries; NASA declares operations over on November 10, 2008 and later confirms solar array winter damage via MRO in 2010."
+      }
+    ],
+    "discoveries": [
+      "Physically touched and verified shallow subsurface water ice inches beneath Martian arctic dust.",
+      "Discovered calcium carbonate and mildly alkaline soil (pH ~7.7) alongside perchlorate salts—revising Martian soil chemistry models.",
+      "Observed water-ice snow falling from polar clouds and evening ground frost formation."
+    ],
+    "missionEnd": {
+      "date": "2008-11-02 (Last signal); 2008-11-10 (Mission ended)",
+      "summary": "Phoenix was not designed to survive severe polar CO2-ice winter; MRO HiRISE images in 2010 confirmed at least one solar panel collapsed under seasonal dry-ice weight."
+    },
+    "currentStatus": {
+      "state": "concluded",
+      "label": "Non-Operational • Damaged Solar Arrays in Vastitas Borealis",
+      "explanation": "Phoenix remains stationary in Mars's north polar plains. Orbital imaging by Mars Reconnaissance Orbiter showed structural solar-array damage from seasonal carbon-dioxide ice accumulation during its first polar winter."
+    },
+    "location": {
+      "body": "Mars",
+      "region": "Green Valley, Vastitas Borealis (North Polar Plains)",
+      "coordinates": {
+        "lat": 68.2188,
+        "lon": 234.2508,
+        "precision": "confirmed (68.2188° N, 125.7492° W / 234.2508° E)",
+        "frame": "Areocentric (Mars)"
+      },
+      "trajectoryNote": "Stationary lander imaged repeatedly from orbit by MRO HiRISE."
+    },
+    "historicalSignificance": "Phoenix delivered the first physical ground confirmation of accessible Martian water ice—a crucial scientific and future resource discovery.",
+    "story": "Phoenix had only one polar summer to work before winter darkness and dry-ice snow would freeze its electronics forever. Digging inches into arctic dirt, its scoop struck hard, bright white ice—and when engineers watched the exposed chunks vanish into thin air over four days, humanity had physically touched Martian water.",
+    "images": [
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA09344/PIA09344~medium.jpg",
+        "alt": "Artist concept of Phoenix Mars Lander on the Martian arctic plains",
+        "caption": "Artist concept of the Phoenix Mars Lander operating on Vastitas Borealis arctic plains (PIA09344). Credit: NASA/JPL-Caltech/Univ. of Arizona."
+      },
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA10906/PIA10906~orig.jpg",
+        "alt": "Phoenix lander trench showing exposed subsurface water ice that sublimated over four sols",
+        "caption": "White chunks of water ice uncovered inside Phoenix's trench on Sol 20 that sublimed by Sol 24 (PIA10906). Credit: NASA/JPL-Caltech/Univ. of Arizona."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 will evaluate schematic Phoenix lander geometry."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — Phoenix Mars Lander (2007-034A)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-034A",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "Phoenix — NASA Science Mission Overview",
+        "url": "https://science.nasa.gov/mission/phoenix/",
+        "organization": "NASA Science"
+      },
+      {
+        "title": "Phoenix Mars Lander — JPL Mission Archive",
+        "url": "https://www.jpl.nasa.gov/missions/phoenix/",
+        "organization": "NASA JPL"
+      }
+    ]
+  },
+  {
+    "id": "insight",
+    "name": "InSight Mars Lander",
+    "cosparId": "2018-042A",
+    "category": "mars",
+    "missionType": "Robotic Geophysical Lander",
+    "agency": "NASA (JPL / CNES / DLR)",
+    "launchYear": 2018,
+    "launchDate": "2018-05-05T11:05:01Z",
+    "destination": "Mars — Elysium Planitia",
+    "shortDescription": "First spacecraft dedicated to listening to Mars's deep interior—detecting over 1,300 marsquakes and measuring the crust, mantle, and liquid metallic core before dust silenced its solar panels in December 2022.",
+    "quickOverview": "While rovers studied surface rocks, InSight sat completely still on the flat plains of Elysium Planitia with a single goal: taking Mars's vital signs from the inside out. Using an ultra-sensitive French-built seismometer set directly onto Martian dirt, InSight heard over 1,300 marsquakes—mapping Mars's crust, mantle, and molten core for the first time.",
+    "scientificSummary": "NSSDCA 2018-042A (Interior Exploration using Seismic Investigations, Geodesy and Heat Transport) landed a 358 kg stationary platform on Elysium Planitia on November 26, 2018. Its robotic arm placed the CNES-led SEIS seismometer under a wind-and-thermal shield alongside DLR's HP³ heat probe (whose self-hammering mole encountered unexpected cohesive duricrust and stopped just below the surface) and JPL's RISE X-band radio transponder. Operating for 1,440+ sols, InSight retired in December 2022 after dust coated its solar arrays.",
+    "missionObjectives": [
+      "Measure seismic waves from marsquakes and meteoroid impacts to determine crust, mantle, and core thickness and state.",
+      "Track rotational axis wobbles (precession and nutation) via RISE radio Doppler shifts to constrain core size and density.",
+      "Attempt subsurface heat-flow measurements with the HP³ thermal probe.",
+      "Monitor equatorial weather, magnetic anomalies, and infrasound."
+    ],
+    "launchDetails": {
+      "dateUtc": "2018-05-05T11:05:01Z",
+      "vehicle": "Atlas V 401 (with MarCO CubeSats)",
+      "site": "Vandenberg Air Force Base, SLC-3E, California",
+      "landingDateUtc": "2018-11-26T19:52:59Z"
+    },
+    "spacecraftSpecifications": {
+      "landerMass": "~358 kg landed mass (~694 kg launch stack)",
+      "power": "Two 2.15 m circular GaAs solar arrays + Li-ion batteries",
+      "activeDuration": "1,440+ Martian sols (~4 Earth years)",
+      "marsquakesDetected": "1,319 confirmed seismic events"
+    },
+    "instruments": [
+      {
+        "name": "Seismic Experiment for Interior Structure (SEIS)",
+        "code": "CNES / IPGP / ETH / NASA",
+        "purpose": "Ultra-sensitive 6-axis seismometer detecting marsquakes and meteoroid impact seismic waves.",
+        "status": "Non-operational (powered down Dec 2022)"
+      },
+      {
+        "name": "Rotation and Interior Structure Experiment (RISE)",
+        "code": "JPL X-Band Radio Science",
+        "purpose": "Measured tiny Doppler wobbles in Mars's spin axis to probe core radius and liquid state.",
+        "status": "Non-operational"
+      },
+      {
+        "name": "Heat Flow and Physical Properties Package (HP³)",
+        "code": "DLR Self-Hammering Mole",
+        "purpose": "Designed to burrow up to 5 m deep; stopped near ~40 cm due to unexpected clumped duricrust friction.",
+        "status": "Halted burrowing Jan 2021; non-operational"
+      }
+    ],
+    "missionJourney": "Launched May 5, 2018 (the first interplanetary launch from California), InSight flew alongside twin MarCO CubeSats that relayed its November 26, 2018 landing live. Over four years, it recorded seismic waves crossing Mars's core and watched dust slowly dim its solar output until final contact on December 15, 2022.",
+    "timeline": [
+      {
+        "date": "2018-05-05 11:05 UTC",
+        "title": "First Interplanetary Launch from Vandenberg",
+        "description": "InSight lifts off aboard an Atlas V 401 from California with twin MarCO CubeSats."
+      },
+      {
+        "date": "2018-11-26 19:52 UTC",
+        "title": "Touchdown in Elysium Planitia",
+        "description": "Lands safely at 4.50° N, 135.62° E."
+      },
+      {
+        "date": "2018-12-19",
+        "title": "SEIS Placed Directly on Mars",
+        "description": "Robotic arm deploys the dome seismometer onto Martian soil—the first seismometer placed directly on another planet's surface."
+      },
+      {
+        "date": "2019-04-06",
+        "title": "First Confirmed Marsquake",
+        "description": "SEIS detects its first clear seismic signal originating inside Mars (Sol 128)."
+      },
+      {
+        "date": "2022-05-04",
+        "title": "Record Magnitude ~4.7–5 Marsquake",
+        "description": "Detects the strongest marsquake ever recorded, sending surface waves ringing around the planet."
+      },
+      {
+        "date": "2022-12-15 / 12-21",
+        "title": "Final Contact & Official Mission End",
+        "description": "Last communication received December 15, 2022; after two missed check-ins due to dust-covered arrays, NASA retires InSight on December 21, 2022."
+      }
+    ],
+    "discoveries": [
+      "Detected 1,319 marsquakes and meteoroid impact events—including waves passing directly through Mars's core.",
+      "Determined Mars possesses a liquid metallic core ~1,830 km in radius enriched with lighter elements, and a layered crust ~24–72 km thick.",
+      "Revealed regional magnetic fields near Elysium Planitia ten times stronger than previously estimated from orbit."
+    ],
+    "missionEnd": {
+      "date": "2022-12-21 (Last contact: 2022-12-15)",
+      "summary": "Thick Martian dust settled over both circular solar arrays over four years without strong cleaning winds, gradually depleting battery power until transmissions stopped."
+    },
+    "currentStatus": {
+      "state": "concluded",
+      "label": "Non-Operational • Dust-Covered Lander in Elysium Planitia",
+      "explanation": "InSight sits intact and unpowered in Elysium Planitia with SEIS deployed beside it under its protective wind shield."
+    },
+    "location": {
+      "body": "Mars",
+      "region": "Elysium Planitia",
+      "coordinates": {
+        "lat": 4.5,
+        "lon": 135.62,
+        "precision": "confirmed (4.50° N, 135.62° E)",
+        "frame": "Areocentric (Mars)"
+      },
+      "trajectoryNote": "Stationary lander; SEIS deployed ~1.6 m away on Martian soil."
+    },
+    "historicalSignificance": "InSight gave planetary science its first true interior seismological portrait of a rocky planet beyond Earth and the Moon.",
+    "story": "While rovers chased horizons, InSight stayed rooted in one quiet spot and pressed a sensitive ear to the ground. Across four years and more than 1,300 marsquakes, that stationary lander heard meteorite impacts crash miles away and mapped Mars's molten heart before Martian dust gently pulled the curtain on its solar wings.",
+    "images": [
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA22977/PIA22977~medium.jpg",
+        "alt": "InSight seismometer SEIS placed on Martian soil in Elysium Planitia",
+        "caption": "InSight's SEIS seismometer resting on Elysium Planitia before placement of its wind and thermal shield (PIA22977). Credit: NASA/JPL-Caltech."
+      },
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA25287/PIA25287~medium.jpg",
+        "alt": "Dust-covered InSight lander final selfie on Mars in 2022",
+        "caption": "InSight's final dust-coated selfie showing heavy dust buildup across its solar arrays in 2022 (PIA25287). Credit: NASA/JPL-Caltech."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 will evaluate NASA 3D Resources InSight model."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — InSight (2018-042A)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2018-042A",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "InSight — NASA Science Mission Overview",
+        "url": "https://science.nasa.gov/mission/insight/",
+        "organization": "NASA Science"
+      },
+      {
+        "title": "InSight Lander — JPL Mission Archive",
+        "url": "https://www.jpl.nasa.gov/missions/insight/",
+        "organization": "NASA JPL"
+      }
+    ]
+  },
+  {
+    "id": "perseverance-ingenuity",
+    "name": "Perseverance Rover & Ingenuity Helicopter",
+    "cosparId": "2020-052A (Perseverance) / 2020-052B (Ingenuity)",
+    "category": "mars",
+    "missionType": "Nuclear Rover & Retired Rotorcraft Scout",
+    "agency": "NASA (JPL)",
+    "launchYear": 2020,
+    "launchDate": "2020-07-30T11:50:00Z",
+    "destination": "Mars — Jezero Crater (Octavia E. Butler Landing)",
+    "shortDescription": "Flagship astrobiology rover actively caching Martian rock samples—having surpassed Opportunity's 45.16 km distance record in Oct 2026—paired with Ingenuity, the first powered aircraft on another planet (retired after 72 flights).",
+    "quickOverview": "Landing inside Jezero Crater's ancient river delta in February 2021, Perseverance and its tiny companion helicopter Ingenuity revolutionized how we explore Mars. Ingenuity proved powered flight works in Mars's ultra-thin air by flying 72 times before retiring with rotor damage in 2024, while nuclear-powered Perseverance continues climbing the crater rim—setting an all-time off-world driving record of 45.22 km in October 2026.",
+    "scientificSummary": "NSSDCA 2020-052A landed the 1,025 kg Perseverance rover via sky-crane and Terrain-Relative Navigation at 18.38° N, 77.58° E. Powered by an MMRTG Pu-238 nuclear generator, Perseverance carries 7 science suites (Mastcam-Z, SuperCam, PIXL, SHERLOC, RIMFAX, MEDA, plus sample caching) and the retired MOXIE oxygen-production demonstration. Ingenuity (1.8 kg, solar-powered) completed 72 flights totaling ~17.0 km before rotor blade damage on January 18, 2024 retired it as a stationary weather/avionics testbed at Wright Brothers Field / Valinor Hills.",
+    "missionObjectives": [
+      "Explore Jezero Crater's ancient lake and river delta for signs of past microbial life (potential biosignatures).",
+      "Core, seal, and cache diverse rock and regolith samples for potential future Mars Sample Return.",
+      "Demonstrate oxygen production from Martian CO2 via MOXIE and powered aerial flight via Ingenuity."
+    ],
+    "launchDetails": {
+      "dateUtc": "2020-07-30T11:50:00Z",
+      "vehicle": "Atlas V 541",
+      "site": "Cape Canaveral Space Force Station, SLC-41, Florida",
+      "landingDateUtc": "2021-02-18T20:55:00Z"
+    },
+    "spacecraftSpecifications": {
+      "perseveranceMass": "~1,025 kg (nuclear MMRTG-powered rover)",
+      "ingenuityMass": "1.8 kg (solar-powered coaxial rotorcraft, 1.2 m rotor span)",
+      "perseveranceOdometer": "45.22 km (28.10 miles) as of Oct 11, 2026 (all-time off-world record)",
+      "ingenuityFlightRecord": "72 flights totaling ~17.0 km ground distance (Apr 2021 – Jan 2024)",
+      "moxieProduction": "122 grams of oxygen generated across 16 runs (completed Sept 2023)"
+    },
+    "instruments": [
+      {
+        "name": "Mastcam-Z, SuperCam & RIMFAX",
+        "code": "Imaging / Spectroscopy / Radar",
+        "purpose": "Zoom stereo imaging, laser rock chemistry, and ground-penetrating radar mapping ancient lake sediments.",
+        "status": "Operational (on Perseverance)"
+      },
+      {
+        "name": "PIXL & SHERLOC",
+        "code": "Robotic Arm Biosignature Suite",
+        "purpose": "Micro-scale X-ray chemistry and UV Raman spectroscopy detecting organic carbon and mineral textures.",
+        "status": "Operational (on Perseverance)"
+      },
+      {
+        "name": "MOXIE (Mars Oxygen ISRU Experiment)",
+        "code": "Technology Demonstration",
+        "purpose": "Converted Martian CO2 into 122 g of breathable-purity oxygen across 16 tests.",
+        "status": "Completed successfully (Sept 2023)"
+      },
+      {
+        "name": "Ingenuity Mars Helicopter",
+        "code": "2020-052B Rotorcraft",
+        "purpose": "First aircraft to achieve powered controlled flight on another planet (72 total flights).",
+        "status": "Grounded / Retired (Jan 2024 after Flight 72 rotor damage)"
+      }
+    ],
+    "missionJourney": "Touching down near Jezero's ancient delta on February 18, 2021, Perseverance deployed Ingenuity for its historic first flight on April 19, 2021. After exploring the crater floor, delta front, and crater rim—and investigating potential biosignature rock 'Cheyava Falls' in 2024—Perseverance surpassed Opportunity's 45.16 km off-world driving milestone on October 11, 2026.",
+    "timeline": [
+      {
+        "date": "2020-07-30 11:50 UTC",
+        "title": "Atlas V 541 Launch",
+        "description": "Mars 2020 launches from Cape Canaveral SLC-41 carrying Perseverance and Ingenuity."
+      },
+      {
+        "date": "2021-02-18 20:55 UTC",
+        "title": "Sky-Crane Landing in Jezero Crater",
+        "description": "Touches down at Octavia E. Butler Landing (18.38° N, 77.58° E)."
+      },
+      {
+        "date": "2021-04-19",
+        "title": "Ingenuity's First Off-World Powered Flight",
+        "description": "Hovers 3 meters above Wright Brothers Field for 39.1 seconds—the first Wright Brothers moment on another planet."
+      },
+      {
+        "date": "2023-09",
+        "title": "MOXIE Completes Oxygen Production",
+        "description": "Finishes 16th and final test, producing 122 grams of oxygen directly from Mars's atmosphere."
+      },
+      {
+        "date": "2024-01-18 / 01-25",
+        "title": "Ingenuity Flight 72 & Retirement",
+        "description": "Ingenuity sustains rotor blade tip damage landing from Flight 72; NASA officially ends its flight mission on January 25, 2024."
+      },
+      {
+        "date": "2024-07",
+        "title": "'Cheyava Falls' Rock Investigated",
+        "description": "Perseverance samples Bright Angel mudstone with intriguing organic compounds and mineral 'leopard spots'."
+      },
+      {
+        "date": "2026-10-11",
+        "title": "All-Time Off-World Driving Record",
+        "description": "Perseverance reaches 45.22 km (28.10 miles) driven, surpassing Opportunity's 45.16 km record."
+      }
+    ],
+    "discoveries": [
+      "Confirmed Jezero Crater hosted an ancient lake, river delta, and igneous bedrock altered by multiple episodes of liquid water.",
+      "Investigated intriguing organic-bearing mudstone ('Cheyava Falls' / Sapphire Canyon core) containing chemical textures consistent with potential ancient microbial or abiotic reactions.",
+      "Proved aerodynamic rotorcraft flight works routinely in Mars's 1%-density atmosphere (72 flights, ~17.0 km) and proved atmospheric CO2 can yield pure oxygen on demand (MOXIE)."
+    ],
+    "missionEnd": {
+      "date": "Perseverance: Active | Ingenuity: 2024-01-25",
+      "summary": "Perseverance remains actively exploring Jezero Crater and beyond; Ingenuity concluded flight operations in January 2024 after sustaining rotor damage on Flight 72."
+    },
+    "currentStatus": {
+      "state": "operational",
+      "label": "Perseverance Operational • Ingenuity Retired",
+      "explanation": "Perseverance is fully operational in Jezero Crater, holding the all-time off-world driving record (45.22 km as of October 2026). Ingenuity rests permanently grounded in the Neretva Vallis / Valinor Hills sand ripples after 72 flights."
+    },
+    "location": {
+      "body": "Mars",
+      "region": "Jezero Crater & Rim (Octavia E. Butler Landing)",
+      "coordinates": {
+        "lat": 18.38,
+        "lon": 77.58,
+        "precision": "confirmed (landing site; Perseverance actively traversing west/rim beyond 45 km)",
+        "frame": "Areocentric (Mars)"
+      },
+      "trajectoryNote": "Perseverance has driven 45.22 km across Jezero Crater floor, delta, and rim; Ingenuity remains stationary near its Flight 72 landing site."
+    },
+    "historicalSignificance": "Perseverance and Ingenuity paired humanity's first extraterrestrial aircraft with our first cached sample collection built for return to Earth.",
+    "story": "In 2021, a 1.8-kilogram helicopter spun carbon-fiber blades 2,500 times a minute in Mars's paper-thin air—and lifted off for 72 flights that turned an experiment into an aerial scout. Today Ingenuity rests silently in the sand while Perseverance keeps rolling uphill past 45 kilometers, sealing Martian rock cores that future spacecraft may one day bring to Earth.",
+    "images": [
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA24333/PIA24333~medium.jpg",
+        "alt": "Illustration of Perseverance rover and Ingenuity helicopter in Jezero Crater",
+        "caption": "Perseverance rover and Ingenuity Mars Helicopter operating in Jezero Crater (PIA24333). Credit: NASA/JPL-Caltech."
+      },
+      {
+        "url": "https://images-assets.nasa.gov/image/PIA24647/PIA24647~small.jpg",
+        "alt": "Ingenuity Mars Helicopter hovering above Mars during Flight 5",
+        "caption": "Ingenuity Mars Helicopter hovering during its fifth flight on May 7, 2021 (PIA24647). Credit: NASA/JPL-Caltech."
+      }
+    ],
+    "model3D": {
+      "available": false,
+      "type": "illustrative-pending",
+      "note": "Stage 4 will evaluate official NASA 3D Resources Perseverance & Ingenuity models."
+    },
+    "sources": [
+      {
+        "title": "NSSDCA Master Catalog — Mars 2020 / Perseverance (2020-052A)",
+        "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2020-052A",
+        "organization": "NASA NSSDCA"
+      },
+      {
+        "title": "Perseverance Rover — NASA Science Mission Overview",
+        "url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+        "organization": "NASA Science"
+      },
+      {
+        "title": "Ingenuity Mars Helicopter — NASA Science",
+        "url": "https://science.nasa.gov/mission/ingenuity/",
+        "organization": "NASA Science"
+      },
+      {
+        "title": "Perseverance Sets Off-World Record for Total Distance Driven (Oct 2026)",
+        "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+        "organization": "NASA Science"
+      }
+    ]
+  }
+]
